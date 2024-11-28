@@ -78,7 +78,7 @@ header.active>h1>img {
 
 header.active>h1>span {
     color: #0c0c0e;
-    font: bold 18px/1 "SpoqaHanSansNeo-Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica", "Arial", sans-serif;
+    font: bold 18px/1 "SpoqaHanSansNeo-Regular", 'Apple SD Gothic Neo', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica", "Arial", sans-serif;
     margin-bottom: 0px;
 }
 
@@ -110,13 +110,13 @@ header>h1>img {
 
 header>h1>span {
     color: #0c0c0e;
-    font: bold 20px/1 "SpoqaHanSansNeo-Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica", "Arial", sans-serif;
+    font: bold 20px/1 "SpoqaHanSansNeo-Regular", 'Apple SD Gothic Neo', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica", "Arial", sans-serif;
     margin-bottom: 10px;
 }
 
 header>h1>p {
     color: #93949a;
-    font: normal 14px/1 "SpoqaHanSansNeo-Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica", "Arial", sans-serif;
+    font: normal 14px/1 "SpoqaHanSansNeo-Regular", 'Apple SD Gothic Neo', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica", "Arial", sans-serif;
 }
 
 header #statusContainer {
@@ -177,7 +177,7 @@ main.active {
 
 #quizContainer .question>h3 {
     margin-bottom: 20px;
-    font: bold 14px/1.5 "SpoqaHanSansNeo-Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica", "Arial", sans-serif;
+    font: bold 14px/1.5 "SpoqaHanSansNeo-Regular", 'Apple SD Gothic Neo', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica", "Arial", sans-serif;
 }
 
 #quizContainer .question>div.desc {
@@ -188,7 +188,7 @@ main.active {
     border-radius: 5px;
     width: calc(100% - 10px);
     color: #93949a;
-    font: bold 12px/1.5 "SpoqaHanSansNeo-Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica", "Arial", sans-serif;
+    font: bold 12px/1.5 "SpoqaHanSansNeo-Regular", 'Apple SD Gothic Neo', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica", "Arial", sans-serif;
 }
 
 #quizContainer .question>div.desc>p {
@@ -205,7 +205,7 @@ main.active {
     display: flex;
     align-items: start;
     flex-direction: column;
-    font: bold 12px/1.5 "SpoqaHanSansNeo-Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica", "Arial", sans-serif;
+    font: bold 12px/1.5 "SpoqaHanSansNeo-Regular", 'Apple SD Gothic Neo', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica", "Arial", sans-serif;
 }
 
 #quizContainer .question .optionsContainer>label {
@@ -246,7 +246,7 @@ main.active {
     margin-right: 20px;
     padding: 0 8px;
 
-    font: bold 11px/1 "SpoqaHanSansNeo-Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica", "Arial", sans-serif;
+    font: bold 11px/1 "SpoqaHanSansNeo-Regular", 'Apple SD Gothic Neo', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica", "Arial", sans-serif;
 }
 
 #quizContainer .question .inputContainer .inputWrapper .buttonsContainer {
@@ -268,7 +268,7 @@ main.active {
     border: 1px solid rgba(0, 0, 0, 0.1);
     background: rgba(0, 0, 0, 0.06);
 
-    font: bold 11px/1 "SpoqaHanSansNeo-Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica", "Arial", sans-serif;
+    font: bold 11px/1 "SpoqaHanSansNeo-Regular", 'Apple SD Gothic Neo', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica", "Arial", sans-serif;
 
     cursor: pointer;
 }
