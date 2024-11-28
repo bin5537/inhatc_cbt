@@ -1,0 +1,282 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'SpoqaHanSansNeo-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: #fcfafa;
+    /* background: linear-gradient(0deg, rgba(248, 248, 250, 1) 0%, rgb(240, 244, 255) 50%, rgba(248, 248, 250, 1) 100%); */
+}
+
+#wrap {
+    position: relative;
+    margin: 50px auto;
+    width: 1280px;
+}
+
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    padding: 50px;
+
+    border-radius: 15px;
+    border: 1px solid #e4e4e4;
+    margin-bottom: 20px;
+    transition: all 0.2s;
+}
+
+header.active {
+    position: fixed;
+    top: 50px;
+
+    padding: 15px;
+    width: 1280px;
+
+    flex-direction: row;
+
+    backdrop-filter: blur(15px);
+
+    z-index: 99;
+}
+
+header.active>h1 {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+header.active>h1>img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 0px;
+    margin-right: 20px;
+}
+
+header.active>h1>span {
+    color: #0c0c0e;
+    font: bold 18px/1 "SpoqaHanSansNeo-Regular";
+    margin-bottom: 0px;
+}
+
+header.active>h1>p {
+    display: none
+}
+
+header.active #statusContainer {
+    position: relative;
+    top: 0;
+    right: 0;
+    margin-left: auto;
+}
+
+
+header>h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header>h1>img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    filter: drop-shadow(5px 5px 10px rgb(212, 224, 255));
+    margin-bottom: 20px;
+}
+
+header>h1>span {
+    color: #0c0c0e;
+    font: bold 20px/1 "SpoqaHanSansNeo-Regular";
+    margin-bottom: 10px;
+}
+
+header>h1>p {
+    color: #93949a;
+    font: normal 14px/1 "SpoqaHanSansNeo-Regular";
+}
+
+header #statusContainer {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: #93949a;
+    font: bold 12px/1 "SpoqaHanSansNeo-Light";
+
+    display: flex;
+    align-items: center;
+}
+
+header #statusContainer #submitBtn {
+    outline: none;
+    border-radius: 7.5px;
+    border: 1px solid #e4e4e4;
+    background: #fff;
+    width: 60px;
+    height: 30px;
+    font: bold 12px/1 "SpoqaHanSansNeo-Light";
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+header #statusContainer #submitBtn:hover {
+    background: #f7f4f4;
+}
+
+main {
+    position: relative;
+
+    padding: 50px;
+
+    border-radius: 15px;
+    border: 1px solid #e4e4e4;
+}
+
+main.active {
+    margin-top: 240px;
+}
+
+#quizContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#quizContainer .question {
+    position: relative;
+    margin-bottom: 20px;
+    min-width: 48%;
+    max-width: 48%;
+    padding: 20px;
+    border-radius: 7.5px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+#quizContainer .question>h3 {
+    margin-bottom: 20px;
+    font: bold 14px/1.5 "SpoqaHanSansNeo-Regular";
+}
+
+#quizContainer .question>div.desc {
+    position: relative;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #e4e4e4;
+    border-radius: 5px;
+    width: calc(100% - 10px);
+    color: #93949a;
+    font: bold 12px/1.5 "SpoqaHanSansNeo-Regular";
+}
+
+#quizContainer .question>div.desc>p {
+    padding: 10px;
+    border: 1px solid #e4e4e4;
+}
+
+#quizContainer .question>div.desc>img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+#quizContainer .question .optionsContainer {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    font: bold 12px/1.5 "SpoqaHanSansNeo-Regular";
+}
+
+#quizContainer .question .optionsContainer>label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+
+    color: #93949a;
+    font: bold 12px/1 "SpoqaHanSansNeo-Light";
+    cursor: pointer;
+}
+
+#quizContainer .question .optionsContainer>label>input {
+    margin-right: 10px;
+    margin-top: 3px;
+}
+
+#quizContainer .question .inputContainer {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+
+#quizContainer .question .inputContainer .inputWrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+#quizContainer .question .inputContainer .inputWrapper>input {
+    width: 280px;
+    height: 32px;
+    border-radius: 5px;
+
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background: none;
+    margin-right: 20px;
+    padding: 0 8px;
+
+    font: bold 11px/1 "SpoqaHanSansNeo-Regular";
+}
+
+#quizContainer .question .inputContainer .inputWrapper .buttonsContainer {
+    display: flex;
+    align-items: center;
+}
+
+#quizContainer .question .inputContainer .inputWrapper .buttonsContainer>button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-width: 60px;
+    height: 32px;
+    border-radius: 5px;
+    margin-right: 5px;
+
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.06);
+
+    font: bold 11px/1 "SpoqaHanSansNeo-Regular";
+
+    cursor: pointer;
+}
+
+.resultImage {
+    position: absolute;
+    left: -5px;
+    top: 0px;
+    width: 60px;
+    height: 60px;
+}
