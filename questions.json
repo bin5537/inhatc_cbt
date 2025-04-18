@@ -2,42 +2,240 @@
     "questions": [
         {
             "id": 1,
-            "question": "다음 중 .rpm 형태의 파일로 배포되는 rpm 파일의 구성요소로 틀린 것은?",
+            "question": "/home 디렉터리에 대한 일반적인 설명으로 맞는 것은?",
             "type": "multipleChoice",
             "options": [
                 {
-                    "text": "버전"
+                    "text": "사용자 계정의 홈 디렉터리가 위치하는 디렉터리"
                 },
                 {
-                    "text": "릴리즈"
+                    "text": "시스템 환경 설정 파일을 저장하는 디렉터리"
                 },
                 {
-                    "text": "압축형식"
+                    "text": "파일 시스템을 일시적으로 마운트 시 사용하는 디렉터리"
                 },
                 {
-                    "text": "패키지 이름"
+                    "text": "기본적인 명령어가 저장되는 디렉터리"
                 }
             ],
-            "answer": 3,
+            "answer": 1,
             "isSingleAnswer": true,
             "description": ""
         },
         {
             "id": 2,
-            "question": "다음 중 레드햇 계열 리눅스에서 사용되는 패키지 관리 도구로 거리가 먼 것은?",
+            "question": "리눅스에서 파일 시스템은 어떠한 구조로 구성되어 있는가?",
             "type": "multipleChoice",
             "options": [
                 {
-                    "text": "dnf"
+                    "text": "배열 구조"
                 },
                 {
-                    "text": "rpm"
+                    "text": "단충 구조"
                 },
                 {
-                    "text": "zypper"
+                    "text": "네트워크 구조"
                 },
                 {
-                    "text": "yum"
+                    "text": "계층적 트리 구조"
+                }
+            ],
+            "answer": 4,
+            "isSingleAnswer": true,
+            "description": ""
+        },
+        {
+            "id": 3,
+            "question": "Linux의 디렉터리에 대한 설명으로 옳지 않은 것은?",
+            "type": "multipleChoice",
+            "options": [
+                {
+                    "text": "/bin : 시스템의 각종 드라이버들이 저장"
+                },
+                {
+                    "text": "/var : 가변 자료 저장 디렉터리로 로그 파일 저장"
+                },
+                {
+                    "text": "/lib : 프로그램 실행을 지원해 주는 라이브러리 저장"
+                },
+                {
+                    "text": "/root : 루트 사용자의 홈 디렉터리로 루트 사용자의 관련 파일들을 저장"
+                }
+            ],
+            "answer": 1,
+            "isSingleAnswer": true,
+            "description": ""
+        },
+        {
+            "id": 4,
+            "question": "Linux의 기본 디렉터리와 해당 디렉터리에 저장되는 파일들의 설명으로 옳지 않은 것은?",
+            "type": "multipleChoice",
+            "options": [
+                {
+                    "text": "/tmp : 프로세스 작업 시 임시로 생성되는 파일 저장"
+                },
+                {
+                    "text": "/boot : 부팅 시 커널 이미지와 부팅 정보 저장"
+                },
+                {
+                    "text": "/var : 시스템의 로그 파일과 메일 데이터 저장"
+                },
+                {
+                    "text": "/sbin : 실행 파일이나 기본 명령어 저장"
+                }
+            ],
+            "answer": 4,
+            "isSingleAnswer": true,
+            "description": ""
+        },
+        {
+            "id": 5,
+            "question": "다음 중 가상 파일 시스템으로 프로세스 및 하드웨어에 대한 정보를 담고있는 디렉터리는?",
+            "type": "multipleChoice",
+            "options": [
+                {
+                    "text": "/tmp"
+                },
+                {
+                    "text": "/proc"
+                },
+                {
+                    "text": "/var"
+                },
+                {
+                    "text": "/lost+found"
+                }
+            ],
+            "answer": 2,
+            "isSingleAnswer": true,
+            "description": ""
+        },
+        {
+            "id": 6,
+            "question": "다음에서 설명하는 라이선스로 알맞은 것은?",
+            "type": "multipleChoice",
+            "options": [
+                {
+                    "text": "BSD"
+                },
+                {
+                    "text": "MPL"
+                },
+                {
+                    "text": "GPL"
+                },
+                {
+                    "text": "MIT"
+                }
+            ],
+            "answer": 4,
+            "isSingleAnswer": true,
+            "description": "해당 소프트웨어를 누구나 개작할 수 있고, 수정본의 재배포 시에 소스코드 비공개가 가능하다. 이 라이선스가 적용된 소프트웨어에는 X Windows System, JQuery, Node.js 등이 있다"
+        },
+        {
+            "id": 7,
+            "question": "이 설명에 해당하는 라이선스로 알맞은 것은?",
+            "type": "multipleChoice",
+            "options": [
+                {
+                    "text": "BSD"
+                },
+                {
+                    "text": "MPL"
+                },
+                {
+                    "text": "GPL"
+                },
+                {
+                    "text": "MIT"
+                }
+            ],
+            "answer": 3,
+            "isSingleAnswer": true,
+            "description": "독립적인 저작물일 경우에는 독립 저작물 모듈의 개별적인 배포에는 적용되지 않지만 어떤 형태로든(유료든 무료든) 외부에 공표나 배포할 때에는 전체 소스코드를 공개해야 한다."
+        },
+        {
+            "id": 8,
+            "question": "다음 중 소스코드를 수정해서 만든 2차적 저작물(수정된 코드)을 반드시 공개해야 하는 라이선스로 알맞은 것은?",
+            "type": "multipleChoice",
+            "options": [
+                {
+                    "text": "GPL"
+                },
+                {
+                    "text": "MPL"
+                },
+                {
+                    "text": "BSD"
+                },
+                {
+                    "text": "MIT"
+                }
+            ],
+            "answer": 2,
+            "isSingleAnswer": true,
+            "description": ""
+        },
+        {
+            "id": 9,
+            "question": "다음 중 아파치 라이선스에 대한 설명으로 틀린 것은?",
+            "type": "multipleChoice",
+            "options": [
+                {
+                    "text": "아파치 소프트웨어 재단에서 자체적으로 만든 소프트웨어 라이선스 규정이다."
+                },
+                {
+                    "text": "GPL보다 완화된 조건의 공개 소프트웨어 라이선스이다."
+                },
+                {
+                    "text": "누구든 자유롭게 아파치 소프트웨어를 다운받아 부분 또는 전체를 개인적 혹은 상업적 목적으로 이용할 수 있다"
+                },
+                {
+                    "text": "재배포 시 아파치 라이선스 버전 2.0을 포함시켜야 한다."
+                }
+            ],
+            "answer": 2,
+            "isSingleAnswer": true,
+            "description": ""
+        },
+        {
+            "id": 10,
+            "question": "다음 중 라이선스 특성이 다른 하나는?",
+            "type": "multipleChoice",
+            "options": [
+                {
+                    "text": "Apache"
+                },
+                {
+                    "text": "MIT"
+                },
+                {
+                    "text": "BSD"
+                },
+                {
+                    "text": "MPL"
+                }
+            ],
+            "answer": 4,
+            "isSingleAnswer": true,
+            "description": ""
+        },
+        {
+            "id": 11,
+            "question": "다음 중 BSD 라이선스에 대한 설명으로 틀린 것은?",
+            "type": "multipleChoice",
+            "options": [
+                {
+                    "text": "소스코드 공개의 의무가 없다"
+                },
+                {
+                    "text": "상업적 소프트웨어에서도 무제한 사용 가능하다."
+                },
+                {
+                    "text": "수정본의 재배포는 의무사항이다"
+                },
+                {
+                    "text": "수정본은 소스코드로 공개하지 않아도 된다"
                 }
             ],
             "answer": 3,
@@ -45,263 +243,65 @@
             "description": ""
         },
         {
-            "id": 3,
-            "question": "다음은 관련 패키지를 삭제하는 과정이다. (괄호) 안에 들어갈 내용으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "--delete"
-                },
-                {
-                    "text": "--erase"
-                },
-                {
-                    "text": "--remove"
-                },
-                {
-                    "text": "--uninstall"
-                }
-            ],
-            "answer": 2,
-            "isSingleAnswer": true,
-            "description": "# rpm (괄호) vsftpd"
-        },
-        {
-            "id": 4,
-            "question": "다음 (괄호) 안에 들어갈 내용으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "-v"
-                },
-                {
-                    "text": "-V"
-                },
-                {
-                    "text": "-q"
-                },
-                {
-                    "text": "--version"
-                }
-            ],
-            "answer": 3,
-            "isSingleAnswer": true,
-            "description": "# rpm (괄호) vsftpd<br>vsftpd-2.2.2-24.el6.i686"
-        },
-        {
-            "id": 5,
-            "question": "rpm 명령의 결과가 다음 그림과 같을 때 (괄호)안에 들어갈 내용으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "-qi"
-                },
-                {
-                    "text": "-qd"
-                },
-                {
-                    "text": "-ql"
-                },
-                {
-                    "text": "-qa"
-                }
-            ],
-            "answer": 3,
-            "isSingleAnswer": true,
-            "description": "<p># rpm (괄호) vsftpd</p><img src='./images/5_image.png'>"
-        },
-        {
-            "id": 6,
-            "question": "rpm 명령의 결과가 다음 그림과 같을 때 (괄호)안에 들어 갈 내용으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "-qi"
-                },
-                {
-                    "text": "-qd"
-                },
-                {
-                    "text": "-ql"
-                },
-                {
-                    "text": "-qa"
-                }
-            ],
-            "answer": 1,
-            "isSingleAnswer": true,
-            "description": "<p># rpm (괄호) passwd</p><img src='./images/6_image.png'>"
-        },
-        {
-            "id": 7,
-            "question": "다음(괄호) 안에 들어갈 내용으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "-qi"
-                },
-                {
-                    "text": "-ql"
-                },
-                {
-                    "text": "-qa"
-                },
-                {
-                    "text": "-qf"
-                }
-            ],
-            "answer": 4,
-            "isSingleAnswer": true,
-            "description": "# rpm (괄호) /bin/ls<br>coreutils-8,22-24.el7.x86_64"
-        },
-        {
-            "id": 8,
-            "question": "다음 (괄호)안에 들어갈 내용으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "-q"
-                },
-                {
-                    "text": "-qc"
-                },
-                {
-                    "text": "-qf"
-                },
-                {
-                    "text": "-qp"
-                }
-            ],
-            "answer": 3,
-            "isSingleAnswer": true,
-            "description": "# rpm (괄호) /bin/ls<br>coreutils-8,4-47.el6.i686"
-        },
-        {
-            "id": 9,
-            "question": "httpd 패키지의 환경 설정 파일을 빠르고 간편하게 찾으려고 한다. 다음(괄호)안에 들어갈 내용으로 가장 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "-qa"
-                },
-                {
-                    "text": "-qf"
-                },
-                {
-                    "text": "-qc"
-                },
-                {
-                    "text": "-ql"
-                }
-            ],
-            "answer": 3,
-            "isSingleAnswer": true,
-            "description": "# rpm (괄호) httpd"
-        },
-        {
-            "id": 10,
-            "question": "다음 중 (괄호)안에 들어갈 명령어 구문으로 올바른 것은? (단, vsftpd는 패키지 이름이다.)",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "①rpm -V vsftpd"
-                },
-                {
-                    "text": "rpm -qf vsftpd"
-                },
-                {
-                    "text": "rpm -qi vsftpd"
-                },
-                {
-                    "text": "rpm -qc vsftpd"
-                }
-            ],
-            "answer": 1,
-            "isSingleAnswer": true,
-            "description": "[root@www ~]# (괄호)<br>S.5....T c /etc/vsftpd/ftpusers<br>S.5....T c /etc/vsftpd/user_list<br>.M...... c /etc/vsftpd/vsftpd_conf_migrate,sh"
-        },
-        {
-            "id": 11,
-            "question": "다음 (괄호)안에 들어갈 내용으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "-q"
-                },
-                {
-                    "text": "-qc"
-                },
-                {
-                    "text": "-qp"
-                },
-                {
-                    "text": "-V"
-                }
-            ],
-            "answer": 4,
-            "isSingleAnswer": true,
-            "description": "# rpm (괄호) vsftpd<br>S.5....T. c /etc/vsftpd/vsftpd.conf"
-        },
-        {
             "id": 12,
-            "question": "오류 확인을 위해 해당 패키지 파일이 설치하는 파일 및 디렉터리를 확인하려고 한다. 다음(괄호)안에 들어갈 내용 으로 알맞은 것은?",
+            "question": "다음 중 파티션의 유형에 대한 설명으로 틀린 것은?",
             "type": "multipleChoice",
             "options": [
                 {
-                    "text": "-qlp"
+                    "text": "주 파티션은 4개까지 사용 가능하다"
                 },
                 {
-                    "text": "-qfp"
+                    "text": "주 파티션 4개 사용 후 확장 파티션의 선언이 가능하다"
                 },
                 {
-                    "text": "-qdp"
+                    "text": "5개 이상의 파티션이 필요한 경우 확장 파티션의 선언이 필요하다"
                 },
                 {
-                    "text": "-qcp"
+                    "text": "부팅 가능한 파티션은 디스크에 하나 이상 존재해야 한다."
                 }
             ],
-            "answer": 1,
+            "answer": 3,
             "isSingleAnswer": true,
-            "description": "$ rpm (괄호) nmap-5,51,6.el6.i386.rpm"
+            "description": ""
         },
         {
             "id": 13,
-            "question": "rpm 파일을 설치하기 전에 어떠한 파일들이 설치 되는지 미리 확인해보려고 한다. 다음 (괄호) 안에 들어갈 내용 으로 알맞은 것은?",
+            "question": "물리적 시스템의 메모리의 크기가 512MB일때 권장하는 스왑 공간 용량으로 알맞은 것은? ",
             "type": "multipleChoice",
             "options": [
                 {
-                    "text": "-qlf"
+                    "text": "256MB"
                 },
                 {
-                    "text": "-qlr"
+                    "text": "512MB"
                 },
                 {
-                    "text": "-qlc"
+                    "text": "1024MB"
                 },
                 {
-                    "text": "-qlp"
+                    "text": "1536MB"
                 }
             ],
-            "answer": 4,
+            "answer": 3,
             "isSingleAnswer": true,
-            "description": "# rpm (괄호) totem-2.28.6-2.el6.i686.rpm"
+            "description": ""
         },
         {
             "id": 14,
-            "question": "다음 중 yum을 이용해서 작업한 내역을 확인하는 명령으로 알맞은 것은?",
+            "question": "다음 중 E-IDE 타입의 디스크를 Secondary Slave에 연결했을 경우에 인식하는 장치 파일명으로 알맞은 것은? ",
             "type": "multipleChoice",
             "options": [
                 {
-                    "text": "yum list"
+                    "text": "/dev/hda"
                 },
                 {
-                    "text": "yum work-list"
+                    "text": "/dev/hdb"
                 },
                 {
-                    "text": "yum check-list"
+                    "text": "/dev/hdc"
                 },
                 {
-                    "text": "yum history"
+                    "text": "/dev/hdd"
                 }
             ],
             "answer": 4,
@@ -310,218 +310,218 @@
         },
         {
             "id": 15,
-            "question": "다음 중 yum 명령을 이용해서 nmap 패키지를 제거하는 명령으로 알맞은 것은?",
+            "question": "다음 중 /dev/sdb6에 대한 설명으로 틀린 것은?",
             "type": "multipleChoice",
             "options": [
                 {
-                    "text": "yum -e nmap"
+                    "text": "첫 번째 확장 파티션이다."
                 },
                 {
-                    "text": "yum -d nmap"
+                    "text": "디스크 유형은 IDE이다."
                 },
                 {
-                    "text": "yum remove nmap"
+                    "text": "해당 파티션은 확장 파티션에 속해 있다."
                 },
                 {
-                    "text": "yum delete nmap"
+                    "text": " 두 번째 논리 파티션이다."
                 }
             ],
-            "answer": 3,
+            "answer": 2,
             "isSingleAnswer": true,
             "description": ""
         },
         {
             "id": 16,
-            "question": "다음 중 yum 명령을 이용해서 nmap 패키지를 설치하는 명렁으로 알맞은 것은?",
+            "question": "다음 중 논리 파티션에 부여될 수 있는 최소 파티션 번호 값은?",
             "type": "multipleChoice",
             "options": [
                 {
-                    "text": "yum nmap install"
+                    "text": "5"
                 },
                 {
-                    "text": "yum install nmap"
+                    "text": "6"
                 },
                 {
-                    "text": "yum -y nmap"
+                    "text": "7"
                 },
                 {
-                    "text": "yum -i nmap"
+                    "text": "8"
                 }
             ],
-            "answer": 2,
+            "answer": 1,
             "isSingleAnswer": true,
             "description": ""
         },
         {
             "id": 17,
-            "question": "다음은 yum 명령을 이용해서 패키지를 설치하는 과정이다. (괄호)안에 들어갈 내용으로 알맞은 것은?",
+            "question": "다음 중 파티션에 대한 설명으로 틀린 것은?",
             "type": "multipleChoice",
             "options": [
                 {
-                    "text": "-i"
+                    "text": "주 파티션의 번호는 1번부터 4번이 할당된다."
                 },
                 {
-                    "text": "-u"
+                    "text": "주 파티션을 2개만 분할해서도 사용 가능하다."
                 },
                 {
-                    "text": "-U"
+                    "text": "확장 파티션은 하나의 물리적 디스크에 1개만 선언 가능하다."
                 },
                 {
-                    "text": "install"
+                    "text": "확장 파티션을 선언해야 주 파티션을 5개 이상 사용 가능하다."
                 }
             ],
             "answer": 4,
-            "isSingleAnswer": true,
-            "description": "# yum (괄호) telnet-server"
-        },
-        {
-            "id": 18,
-            "question": "다음 중 조건을 만족하는 yum 명령어 형식으로 알맞은것은? (단, sendmail은 패키지 이름이다.)",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "yumdownload sendmail"
-                },
-                {
-                    "text": "yumdownloader sendmail"
-                },
-                {
-                    "text": "yumlocalinstall sendmail"
-                },
-                {
-                    "text": "yumdowngrade sendmail"
-                }
-            ],
-            "answer": 2,
-            "isSingleAnswer": true,
-            "description": "-yum-utils 패키지 안에 포함된 명령어이다.<br>-패키지를 설치하지 않고 다운로드 할 수 있다."
-        },
-        {
-            "id": 19,
-            "question": "yum 명령의 결과가 다음 그림과 같을 때(괄호)안에 들어갈 내용으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "-i"
-                },
-                {
-                    "text": "-qi"
-                },
-                {
-                    "text": "info"
-                },
-                {
-                    "text": "search"
-                }
-            ],
-            "answer": 3,
-            "isSingleAnswer": true,
-            "description": "<p>#yum (괄호) telnet-server</p><img src='./images/19_image.png'>"
-        },
-        {
-            "id": 20,
-            "question": "다음 그림의 결과에 해당하는 명령으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "yum list telnet-server"
-                },
-                {
-                    "text": "yum info telnet-server"
-                },
-                {
-                    "text": "yum check telnet-server"
-                },
-                {
-                    "text": "yum search telnet-server"
-                }
-            ],
-            "answer": 2,
-            "isSingleAnswer": true,
-            "description": "<img src='./images/20_image.png'>"
-        },
-        {
-            "id": 21,
-            "question": "다음 중 yum 명령에서 bind라는 문자열이 들어 있는 패키지들을 찾는 명령으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "yum search bind"
-                },
-                {
-                    "text": "yum info bind"
-                },
-                {
-                    "text": "yum list bind"
-                },
-                {
-                    "text": "yum seek bind"
-                }
-            ],
-            "answer": 1,
             "isSingleAnswer": true,
             "description": ""
         },
         {
-            "id": 22,
-            "question": "다음 중 대용량의 파일을 백업할 때 압축 효율성이 좋은 순서의 나열로 알맞은 것은?",
+            "id": 18,
+            "question": "다음 ( ) 안에 들어가는 명령으로 알맞은 것은?",
             "type": "multipleChoice",
             "options": [
                 {
-                    "text": ".gz > .bz2 > .xz"
+                    "text": "which"
                 },
                 {
-                    "text": ".bz2 > .gz > .xz"
+                    "text": "find"
                 },
                 {
-                    "text": ".xz > .gz > .bz2"
+                    "text": "pwd"
                 },
                 {
-                    "text": ".xz > .bz2 > .gz"
+                    "text": "path"
                 }
             ],
-            "answer": 4,
+            "answer": 1,
+            "isSingleAnswer": true,
+            "description": "# ( ) ls<br>alias ls='ls --color=auto'<br>/usr/ls"
+        },
+        {
+            "id": 19,
+            "question": "다음 중 명령행에서 c라고 입력하면 clear라는 명령이 실행되도록 설정하려고 할 때 알맞은 것은? ",
+            "type": "multipleChoice",
+            "options": [
+                {
+                    "text": "alias -m clear c "
+                },
+                {
+                    "text": "alias c=clear"
+                },
+                {
+                    "text": "alias -m clear=c"
+                },
+                {
+                    "text": "alias c clear"
+                }
+            ],
+            "answer": 2,
+            "isSingleAnswer": true,
+            "description": ""
+        },
+        {
+            "id": 20,
+            "question": ". 명령 F를 입력하면 ‘ls -alF가 실행된다. 이 명령의 실행을 중단할 때 가장 알맞은 것은? ",
+            "type": "multipleChoice",
+            "options": [
+                {
+                    "text": "alias F ‘ls -alF’ "
+                },
+                {
+                    "text": "alias F= ‘ls -alF’ "
+                },
+                {
+                    "text": "unalias F"
+                },
+                {
+                    "text": "alias F ‘ls -alF’"
+                }
+            ],
+            "answer": 3,
+            "isSingleAnswer": true,
+            "description": ""
+        },
+        {
+            "id": 21,
+            "question": "다음 명령어에 대한 설명으로 맞는 것은?",
+            "type": "multipleChoice",
+            "options": [
+                {
+                    "text": "계정 ihd는 패스워드 만기 후 5일 동안 사용할 수 있다."
+                },
+                {
+                    "text": "계정 ihd의 우선순위를 5만큼 낮춰 생성한다."
+                },
+                {
+                    "text": "계정 ihd의 UID를 5로 지정한다."
+                },
+                {
+                    "text": "계정 ihd의 실행 권한 수준을 5로 변경한다."
+                }
+            ],
+            "answer": 1,
+            "isSingleAnswer": true,
+            "description": "useradd -f 5 ihd"
+        },
+        {
+            "id": 22,
+            "question": "다음 중 일반적인 사용자 관리 명령어로 틀린 것은?",
+            "type": "multipleChoice",
+            "options": [
+                {
+                    "text": "userdel"
+                },
+                {
+                    "text": "useradd"
+                },
+                {
+                    "text": "usercreate"
+                },
+                {
+                    "text": "usermod"
+                }
+            ],
+            "answer": 3,
             "isSingleAnswer": true,
             "description": ""
         },
         {
             "id": 23,
-            "question": "다음 중 다수의 텍스트 파일이 10MB 정도로 묶여있는 tar 파일을 압축하려고 할 때 가장 압축률이 좋은 명령으로 알 맞은 것은?",
+            "question": "다음 중 사용자 생성 및 삭제 명령으로 틀린 것은?",
             "type": "multipleChoice",
             "options": [
                 {
-                    "text": "XZ"
+                    "text": "adduser"
                 },
                 {
-                    "text": "gzip"
+                    "text": "deluser"
                 },
                 {
-                    "text": "bzip"
+                    "text": "userdel"
                 },
                 {
-                    "text": "compress"
+                    "text": "useradd"
                 }
             ],
-            "answer": 1,
+            "answer": 2,
             "isSingleAnswer": true,
             "description": ""
         },
         {
             "id": 24,
-            "question": "다음 중 묶여진 tar 파일의 내용을 확인하는 명령으로 알맞 은 것은?",
+            "question": "사용자 ihd의 비밀번호를 변경하는 데 사용하는 명령어는?",
             "type": "multipleChoice",
             "options": [
                 {
-                    "text": "tar cvf linux.tar"
+                    "text": "vi /etc/passwd"
                 },
                 {
-                    "text": "tar evf linux.tar"
+                    "text": "chage password"
                 },
                 {
-                    "text": "tar rvf linux.tar"
+                    "text": "info ihd"
                 },
                 {
-                    "text": "tar tvf linux.tar"
+                    "text": "passwd ihd"
                 }
             ],
             "answer": 4,
@@ -530,306 +530,306 @@
         },
         {
             "id": 25,
-            "question": "다음은 text.tar에 묶인 파일의 내용을 확인하는 과정이다. (괄호)안에 들어갈 내용으로 알맞은 것은?",
+            "question": "다음 중 사용자의 패스워드에 대한 정보를 출력하고 /etc/shadow의 날짜 관련 필드에 모두 설정할 수 있는 명령으로 알맞은 것은? ",
             "type": "multipleChoice",
             "options": [
                 {
-                    "text": "cvf"
+                    "text": "chage"
                 },
                 {
-                    "text": "xvf"
+                    "text": "chpasswd"
                 },
                 {
-                    "text": "tvf"
+                    "text": "/passwd"
                 },
                 {
-                    "text": "rvf"
+                    "text": "usermod"
+                }
+            ],
+            "answer": 1,
+            "isSingleAnswer": true,
+            "description": ""
+        },
+        {
+            "id": 26,
+            "question": "파일 또는 디렉터리와 관련된 명령으로 거리가 먼 것은?",
+            "type": "multipleChoice",
+            "options": [
+                {
+                    "text": "ps"
+                },
+                {
+                    "text": "rm"
+                },
+                {
+                    "text": "ls"
+                },
+                {
+                    "text": "cp"
+                }
+            ],
+            "answer": 1,
+            "isSingleAnswer": true,
+            "description": ""
+        },
+        {
+            "id": 27,
+            "question": "pwd 명령에 대한 설명으로 알맞은 것은?",
+            "type": "multipleChoice",
+            "options": [
+                {
+                    "text": "사용자의 홈 디렉터리를 알기 위한 명령이다."
+                },
+                {
+                    "text": "디렉터리에 존재하는 파일의 개수를 알기 위한 명령이다."
+                },
+                {
+                    "text": "사용자의 password를 수정하기 위한 명령이다."
+                },
+                {
+                    "text": "작업중인 디렉터리의 경로를 알기 위한 명령이다."
                 }
             ],
             "answer": 3,
             "isSingleAnswer": true,
-            "description": "# tar (괄호) text,tar"
-        },
-        {
-            "id": 26,
-            "question": "묶여있는 소스 파일을 현재 디렉터리에 풀지 않고 내용만 확인하려고 한다. (괄호)안에 들어갈 내용으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "jxvf"
-                },
-                {
-                    "text": "jtvf"
-                },
-                {
-                    "text": "jxvf"
-                },
-                {
-                    "text": "jtvf"
-                }
-            ],
-            "answer": 2,
-            "isSingleAnswer": true,
-            "description": "# tar (괄호) php-7.4.2.tar.bz2"
-        },
-        {
-            "id": 27,
-            "question": "다음은 묶인 파일인 text.tar를 해제하는 과정이다. (괄호)안에 들어갈 내용으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "cvf"
-                },
-                {
-                    "text": "xvf"
-                },
-                {
-                    "text": "tvf"
-                },
-                {
-                    "text": "rvf"
-                }
-            ],
-            "answer": 2,
-            "isSingleAnswer": true,
-            "description": "# tar (괄호) text,tar"
+            "description": ""
         },
         {
             "id": 28,
-            "question": "다음 중 현재 디렉터리에 있는 C 언어 파일만을 source.tar로 묶는 명령으로 알맞은 것은?",
+            "question": "다음 중 파일이나 디렉터리의 이름을 변경하는 명령으로 알맞은 것은?",
             "type": "multipleChoice",
             "options": [
                 {
-                    "text": "tar rvf *.c source.tar"
+                    "text": "touch"
                 },
                 {
-                    "text": "tar rvf source.tar *.c"
+                    "text": "cat"
                 },
                 {
-                    "text": "tar cvf *.c source.tar"
+                    "text": "mv"
                 },
                 {
-                    "text": "tar cvf source.tar *.c"
+                    "text": "file"
                 }
             ],
-            "answer": 4,
+            "answer": 3,
             "isSingleAnswer": true,
             "description": ""
         },
         {
             "id": 29,
-            "question": "다음은 현재 디렉터리 안에 존재하는 C 언어 파일을 기존에 생성되어 있던 text.tar 파일에 묶는 과정이다. (괄호) 안 에 들어갈 내용으로 알맞은 것은?",
+            "question": "다음 파일의 소유 그룹을 ihd로 변경하고자 할 때 ( ) 안에 들어갈 명령으로 알맞은 것은?",
             "type": "multipleChoice",
             "options": [
                 {
-                    "text": "cvf"
+                    "text": "chown"
                 },
                 {
-                    "text": "xvf"
+                    "text": "chmod"
                 },
                 {
-                    "text": "tvf"
+                    "text": "chgrp"
                 },
                 {
-                    "text": "rvf"
-                }
-            ],
-            "answer": 4,
-            "isSingleAnswer": true,
-            "description": "# tar (괄호) text,tar *.C"
-        },
-        {
-            "id": 30,
-            "question": "다음은 기존에 생성되어 있는 backup.tar 파일에 추가로 파일을 묶은 후에 확인하는 과정이다. (괄호)안에 들어 갈 내용으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "ㄱ: cvf, ㄴ: tvf"
-                },
-                {
-                    "text": "ㄱ: tvf, ㄴ: rvf"
-                },
-                {
-                    "text": "ㄱ: rvf, ㄴ: tvf"
-                },
-                {
-                    "text": "ㄱ: cvf, ㄴ: rvf"
-                }
-            ],
-            "answer": 3,
-            "isSingleAnswer": true,
-            "description": "# tar ( ㄱ ) backup.tar lin.txt<br>joon.txt<br># tar ( ㄴ ) backup.tar"
-        },
-        {
-            "id": 31,
-            "question": "다음은 tar 명령어로 사용자의 홈 디렉토리 영역인 /home 디렉토리를 증분 백업하는 과정의 일부이다. (괄호)안에 들어갈 옵션으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "-n"
-                },
-                {
-                    "text": "-N"
-                },
-                {
-                    "text": "-c"
-                },
-                {
-                    "text": "-g"
-                }
-            ],
-            "answer": 4,
-            "isSingleAnswer": true,
-            "description": "# tar (괄호) list - cvfp home1.tar /home<br># tar (괄호) list - cvfp home2.tar /home"
-        },
-        {
-            "id": 32,
-            "question": "다음은 tar에서 지원하는 압축 관련 옵션에 대한 설명이다. (괄호)안에 들어갈 내용으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "ㄱ: -g, ㄴ: -b"
-                },
-                {
-                    "text": "ㄱ: -j, ㄴ: -z"
-                },
-                {
-                    "text": "ㄱ: -j, ㄴ: -b"
-                },
-                {
-                    "text": "ㄱ: -z, ㄴ: -j"
-                }
-            ],
-            "answer": 4,
-            "isSingleAnswer": true,
-            "description": "tar 명령어는 GNU 프로젝트에 의해 개조되어 압축 관련 옵션을 지원한다. qzip은 ( ㄱ )옵션을 사용 하고, bzip2는 ( ㄴ )옵션을 사용한다."
-        },
-        {
-            "id": 33,
-            "question": "다음 중(괄호)안에 들어갈 압축 명령어와 tar 명령어 옵션 조합으로 틀린 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "ㄱ: gzip, ㄴ: z"
-                },
-                {
-                    "text": "ㄷ: compress, ㄹ: k"
-                },
-                {
-                    "text": "ㅁ: xz, ㅂ: J"
-                },
-                {
-                    "text": "ㅅ: bzip2, ㅇ: j"
-                }
-            ],
-            "answer": 2,
-            "isSingleAnswer": true,
-            "description": "- 파일확장자: .gz (ㄱ) : (ㄴ)<br>- 파일확장자: .Z (ㄷ) : (ㄹ)<br>- 파일확장자: .xz (ㅁ) : (ㅂ)<br>- 파일확장자: .bz2 (ㅅ) : (ㅇ)"
-        },
-        {
-            "id": 34,
-            "question": "다음 (괄호)안에 들어갈 내용으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "ㄱ: z, ㄴ: j, ㄷ: J"
-                },
-                {
-                    "text": "ㄱ: z, ㄴ: J, ㄷ: j"
-                },
-                {
-                    "text": "ㄱ: J, ㄴ: j, ㄷ: z"
-                },
-                {
-                    "text": "ㄱ: j, ㄴ: J, ㄷ: z"
-                }
-            ],
-            "answer": 4,
-            "isSingleAnswer": true,
-            "description": "# tar (ㄱ)xvf httpd-2.2.34.tar.bz2<br># tar (ㄴ)xvf php-5.36.tar.xz<br># tar (ㄷ)xvf mysql-boost-5.7.22.tar.gz"
-        },
-        {
-            "id": 35,
-            "question": "다음 중 (괄호) 안에 들어갈 용어로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "셸(Shell)"
-                },
-                {
-                    "text": "커널"
-                },
-                {
-                    "text": "네트워크"
-                },
-                {
-                    "text": "환경변수"
+                    "text": "csh"
                 }
             ],
             "answer": 1,
             "isSingleAnswer": true,
-            "description": "(괄호)는/은 사용자로 부터 명령을 받아 해석하고 프로그램을 실행하는 역할을 한다. 또한 프로그램할 수 있는 여러가지 기능을 가지고 있다."
+            "description": "[root@www~]# ( ) :ihd test.txt"
         },
         {
-            "id": 36,
-            "question": "다음 중 최근 입력한 명령어 5개를 출력하는 명령으로 알맞은 것은?",
+            "id": 30,
+            "question": "명령어 ‘ls -l’을 실행한 결과에 대한 설명으로 알맞은 것은?",
             "type": "multipleChoice",
             "options": [
                 {
-                    "text": "!5"
+                    "text": "소켓 파일을 의미한다."
                 },
                 {
-                    "text": "!-5"
+                    "text": "입출력에 사용되는 특수 파일을 의미한다."
                 },
                 {
-                    "text": "history 5"
+                    "text": "심볼릭 링크 파일을 의미한다."
                 },
                 {
-                    "text": "history -5"
+                    "text": "블록 구조의 특수파일을 의미한다."
+                }
+            ],
+            "answer": 1,
+            "isSingleAnswer": true,
+            "description": "srw-r--r-- 1 root root 0 Aug 8 13:41 control"
+        },
+        {
+            "id": 31,
+            "question": "다음 중 허가권(Permisson)에 대한 설명으로 틀린 것은? ",
+            "type": "multipleChoice",
+            "options": [
+                {
+                    "text": "파일의 내용을 볼 수 있는 권한 표시는 r을 사용한다"
+                },
+                {
+                    "text": "실행 파일을 실행시킬 수 있는 권한 표시는 x를 사용한다."
+                },
+                {
+                    "text": "디렉터리 안에 파일을 생성 또는 삭제할 수 없는 권한 표시는 w를 사용한다."
+                },
+                {
+                    "text": "디렉터리 내부로 접근할 수 있는 권한 표시는 x를 사용한다"
                 }
             ],
             "answer": 3,
+            "isSingleAnswer": true,
+            "description": ""
+        },
+        {
+            "id": 32,
+            "question": "다음 중 보안상 가장 안전한 umask 설정 값으로 알맞은 것은?",
+            "type": "multipleChoice",
+            "options": [
+                {
+                    "text": "umask 000"
+                },
+                {
+                    "text": "umask 066"
+                },
+                {
+                    "text": "umask 077"
+                },
+                {
+                    "text": "umask 022"
+                }
+            ],
+            "answer": 3,
+            "isSingleAnswer": true,
+            "description": ""
+        },
+        {
+            "id": 33,
+            "question": "다음 중 Sticky-Bit가 설정된 디렉터리로 알맞은 것은?",
+            "type": "multipleChoice",
+            "options": [
+                {
+                    "text": "/root"
+                },
+                {
+                    "text": "/tmp"
+                },
+                {
+                    "text": "/usr"
+                },
+                {
+                    "text": "/etc"
+                }
+            ],
+            "answer": 2,
+            "isSingleAnswer": true,
+            "description": ""
+        },
+        {
+            "id": 34,
+            "question": "다음 중 data 디렉터리를 공유 모드로 설정할 때 명령으로 알맞은 것은? ",
+            "type": "multipleChoice",
+            "options": [
+                {
+                    "text": "chmod o+s data/"
+                },
+                {
+                    "text": "chmod u+s data/"
+                },
+                {
+                    "text": "chmod o+t data/"
+                },
+                {
+                    "text": "chmod g+s data/"
+                }
+            ],
+            "answer": 3,
+            "isSingleAnswer": true,
+            "description": ""
+        },
+        {
+            "id": 35,
+            "question": "/project 디렉터리에 Set-GID를 설정 시 ( ) 안에 들어갈 옵션으로 알맞은 것은? ",
+            "type": "multipleChoice",
+            "options": [
+                {
+                    "text": "g+s"
+                },
+                {
+                    "text": "a+r"
+                },
+                {
+                    "text": "g+t"
+                },
+                {
+                    "text": "o+t"
+                }
+            ],
+            "answer": 1,
+            "isSingleAnswer": true,
+            "description": "# chmod ( ) /project "
+        },
+        {
+            "id": 36,
+            "question": "리눅스 파일 시스템에서 특별한 종류의 디스크 블록으로 파일 이름, 소유주, 권한, 시간, 디스크에서의 위치 등에 대한 정보를 담고 있는 것으로 알맞은 것은? ",
+            "type": "multipleChoice",
+            "options": [
+                {
+                    "text": "inode"
+                },
+                {
+                    "text": "data block"
+                },
+                {
+                    "text": "partition table"
+                },
+                {
+                    "text": "super block"
+                }
+            ],
+            "answer": 1,
             "isSingleAnswer": true,
             "description": ""
         },
         {
             "id": 37,
-            "question": "다음 바로 직전에 수행한 명령을 재실행할 때 사용할 때 명령으로 알맞은 것은?",
+            "question": "다음 ( ) 안에 에서 설명하는 파일 시스템의 종류로 알맞은 것은?",
             "type": "multipleChoice",
             "options": [
                 {
-                    "text": "!0"
+                    "text": "저널링(journaling)"
                 },
                 {
-                    "text": "!1"
+                    "text": "msdos"
                 },
                 {
-                    "text": "!!"
+                    "text": "ext"
                 },
                 {
-                    "text": "history -1"
+                    "text": "ext2"
                 }
             ],
-            "answer": 3,
+            "answer": 1,
             "isSingleAnswer": true,
-            "description": ""
+            "description": "리눅스 커널 2.4 버전부터는 ( ) 파일 시스템 기능이 있는 ext3를 사용 하였고, 시스템에 충돌이 발생하거나 전원 문제가 발생된 경우에 데이터 복구 확률을 높여준다"
         },
         {
             "id": 38,
-            "question": "최근 실행한 명령 중에서 'al'이라는 문자열이 들어간 명령을 찾아서 재실행하려고 할 때 가장 알맞은 것은?",
+            "question": "명령어 mount 옵션 중 access time을 갱신하지 않도록 할 때 설정하는 것은?",
             "type": "multipleChoice",
             "options": [
                 {
-                    "text": "!al"
+                    "text": "remount"
                 },
                 {
-                    "text": "!?al?"
+                    "text": "noatime"
                 },
                 {
-                    "text": "!!al"
+                    "text": "loop"
                 },
                 {
-                    "text": "history al"
+                    "text": "atime"
                 }
             ],
             "answer": 2,
@@ -838,2691 +838,157 @@
         },
         {
             "id": 39,
-            "question": "다음(괄호) 안에 출력되는 내용으로 알맞은 것은?",
+            "question": "/dev/sda2 파티션을 ext4 파일 시스템으로 생성 시 ( ) 안에 들어갈 내용으로 틀린 것은?",
             "type": "multipleChoice",
             "options": [
                 {
-                    "text": "?"
+                    "text": "mke2fs -j"
                 },
                 {
-                    "text": "0"
+                    "text": "mke2fs -t ext4"
                 },
                 {
-                    "text": "1"
+                    "text": "mkfs -t ext4"
                 },
                 {
-                    "text": "2"
+                    "text": "mkfs.ext4"
                 }
             ],
-            "answer": 2,
+            "answer": 1,
             "isSingleAnswer": true,
-            "description": "# ls<br>joon, txt lin.txt<br># echo $?<br>(괄호)"
+            "description": "[root@www~]# ( ) /dev/sda2"
         },
         {
             "id": 40,
-            "question": "다음 명령의 실행 결과로 (괄호) 안에 알맞은 것은?",
+            "question": "/dev/sda3 파티션을 ext3 파일 시스템으로 생성 시 ( ) 안에 들어갈 내용으로 틀린 것은?",
             "type": "multipleChoice",
             "options": [
                 {
-                    "text": "$0 /sharp #"
+                    "text": "msks.ext3"
                 },
                 {
-                    "text": "$0 /the 2"
+                    "text": "mke2fs -t ext3"
                 },
                 {
-                    "text": "./test.sh /the #"
+                    "text": "mkfs -c"
                 },
                 {
-                    "text": "./test.sh /the 2"
+                    "text": "mke2fs -j"
                 }
             ],
-            "answer": 2,
+            "answer": 3,
             "isSingleAnswer": true,
-            "description": "[ihd@www~]$ cat tesh, sh<br>#!/bin/bash<br>echo '₩$0 $1 $#'<br>[ihd@www~]$ ./tesh,sh the /sharp<br>(괄호)"
+            "description": "[root@www~]# ( ) /dev/sda3"
         },
         {
             "id": 41,
-            "question": "다음 중 아래의 파일을 실행하는 방법으로 틀린 것은?",
+            "question": "다음 중 생성되는 파일 시스템의 종류가 다른 것은?",
             "type": "multipleChoice",
             "options": [
                 {
-                    "text": "#sh script.sh"
+                    "text": "mke2fs -j /dev/sdb1"
                 },
                 {
-                    "text": "#. script.sh"
+                    "text": "mkfs.ext3 /dev/sdb1"
                 },
                 {
-                    "text": "#source script.sh"
+                    "text": "mkfs dev/sdb1"
                 },
                 {
-                    "text": "#./script.sh"
+                    "text": "mke2fs -t ext3 /dev/sdb1"
                 }
             ],
-            "answer": 4,
+            "answer": 3,
             "isSingleAnswer": true,
-            "description": "<img src='./images/42_image.png'>"
+            "description": ""
         },
         {
             "id": 42,
-            "question": "다음 명령의 결과로 알맞은 것은?",
+            "question": " 다음 조건으로 파일 시스템을 생성하려 할 때 알맞은 것은? ",
             "type": "multipleChoice",
             "options": [
                 {
-                    "text": "lin"
+                    "text": "mke2fs -j -b 8192 –R stripe=32 /dev/md0"
                 },
                 {
-                    "text": "echo"
+                    "text": "mke2fs -j -b 4096 –R stripe=32 /dev/md0"
                 },
                 {
-                    "text": "user"
+                    "text": "mke2fs -j -b 8192 –R stripe=64 /dev/md0"
                 },
                 {
-                    "text": "화면에 아무것도 출력되지 않는다."
+                    "text": "mke2fs -j -b 4096 –R stripe=64 /dev/md0"
                 }
             ],
             "answer": 3,
             "isSingleAnswer": true,
-            "description": "$ user=lin<br>$ echo user<br>(&nbsp;&nbsp;&nbsp;)"
+            "description": "가. RAID 장치인 /dev/md0를 ext3 파일 시스템으로 생성하고 블록 사이즈를 8192바이트로 한다. <br>나. stripe당 블록 사이즈를 32바이트로 설정한다."
         },
         {
             "id": 43,
-            "question": "다음 중 (괄호) 안에 들어갈 명령의 결과로 알맞은 것은?",
+            "question": " 다음 중 파일 시스템을 검사하고 수리하는 명령으로 알맞은 것은? ",
             "type": "multipleChoice",
             "options": [
                 {
-                    "text": "아무것도 출력되지 않는다."
+                    "text": "mount"
                 },
                 {
-                    "text": "$user"
+                    "text": "fsck"
                 },
                 {
-                    "text": "ihduser"
+                    "text": "unmount"
                 },
                 {
-                    "text": "kaitman"
+                    "text": "eject"
                 }
             ],
-            "answer": 3,
+            "answer": 2,
             "isSingleAnswer": true,
-            "description": "[ihduser@ihd ~]$ user=kaitman<br>[ihduser@ihd ~]$ echo $USER<br>(괄호)"
+            "description": ""
         },
         {
             "id": 44,
-            "question": "다음(괄호) 안에 출력되는 내용으로 알맞은 것은?",
+            "question": "다음 중 파일이나 디렉터리의 디스크 사용량을 확인할 때 사용하는 명령어는?",
             "type": "multipleChoice",
             "options": [
                 {
-                    "text": "lin"
+                    "text": "free"
                 },
                 {
-                    "text": "USER"
+                    "text": "fsck"
                 },
                 {
-                    "text": "ihduser"
+                    "text": "df"
                 },
                 {
-                    "text": "아무것도 출력되지 않는다."
+                    "text": "du"
                 }
             ],
-            "answer": 3,
+            "answer": 4,
             "isSingleAnswer": true,
-            "description": "[ihduser@kait ~]$ user=lin<br>[ihduser@kait ~]$ echo $USER<br>(괄호)"
+            "description": ""
         },
         {
             "id": 45,
-            "question": "다음(괄호) 안에 들어갈 내용으로 가장 알맞은 것은?",
+            "question": "다음 중 fsck가 시스템 부팅 시 파일 시스템 점검을 위해 참조하는 필드 영역으로 알맞은 것은?",
             "type": "multipleChoice",
             "options": [
                 {
-                    "text": "0"
+                    "text": "A"
                 },
                 {
-                    "text": "1"
+                    "text": "B"
                 },
                 {
-                    "text": "10"
+                    "text": "C"
                 },
                 {
-                    "text": "-10"
-                }
-            ],
-            "answer": 2,
-            "isSingleAnswer": true,
-            "description": "# test 20 -gt 30<br># echo $?<br>( 괄호 )"
-        },
-        {
-            "id": 46,
-            "question": "다음 중 (괄호) 안에 들어갈 스크립트 출력 내용으로 틀린 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "ㄱ: ./arg.sh"
-                },
-                {
-                    "text": "ㄴ: arg1"
-                },
-                {
-                    "text": "ㄷ: 3"
-                },
-                {
-                    "text": "ㄹ: arg1 arg2"
+                    "text": "D"
                 }
             ],
             "answer": 3,
             "isSingleAnswer": true,
-            "description": "$ cat arg.sh<br>echo $0<br>echo $1<br>echo $#<br>echo $*<br><br>$ ./arg.sh arg 1 arg2<br>( ㄱ )<br>( ㄴ )<br>( ㄷ )<br>( ㄹ )"
-        },
-        {
-            "id": 47,
-            "question": "다음 (괄호) 안에 들어갈 내용으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "od"
-                },
-                {
-                    "text": "rof"
-                },
-                {
-                    "text": "eof"
-                },
-                {
-                    "text": "done"
-                }
-            ],
-            "answer": 4,
-            "isSingleAnswer": true,
-            "description": "$ cat lin,sh<br>for flower in Rose Tulip Lily<br>&nbsp;&nbsp;&nbsp;&nbsp;do<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo $flower<br>(괄호)"
-        },
-        {
-            "id": 48,
-            "question": "'ps aux' 실행 시 출력되는 정보에 대한 설명 중 틀린 것 은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "VSZ: 가상 메모리 사용량"
-                },
-                {
-                    "text": "RSS: 실제 메모리 사용량"
-                },
-                {
-                    "text": "STAT: 현재 프로세스의 상태 코드"
-                },
-                {
-                    "text": "TIME: 프로세스가 시작된 시간"
-                }
-            ],
-            "answer": 4,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 49,
-            "question": "다음 중 ps aux 명령으로 출력되는 항목으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "UID"
-                },
-                {
-                    "text": "RSS"
-                },
-                {
-                    "text": "PPID"
-                },
-                {
-                    "text": "STIME"
-                }
-            ],
-            "answer": 2,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 50,
-            "question": "다음 중 nohup 명령에 관한 설명 중 잘못된 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "사용자가 로그아웃 하여도 실행중인 프로세스를 백그라 운드 프로세스로 작업할 수 있다."
-                },
-                {
-                    "text": "② 실행한 명령은 자동으로 백그라운드로 보내 터미널을 닫 아도 작업이 유지된다."
-                },
-                {
-                    "text": "실행중인 프로세스의 표준출력과 표준에러는 'nohup.out' 파일을 생성하여 기록한다."
-                },
-                {
-                    "text": "쓰기작업 권한이 없다면 '$HOME/nohup.out' 파일을 생 성하여 기록한다."
-                }
-            ],
-            "answer": 2,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 51,
-            "question": "시그널에 관련된 설명으로 틀린 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "SIGKILL은 프로세스를 강제로 종료시키는 시그널이다."
-                },
-                {
-                    "text": "SIGINT는 키보드로부터 오는 인터럽트 시그널로 실행을 중지시킨다."
-                },
-                {
-                    "text": "시그널의 전체 목록은 명령행에서 'kill -a'명령으로 확인 할 수 있다."
-                },
-                {
-                    "text": "특정 프로세스가 다른 프로세스에게 메시지를 보낼 때 시그널을 이용한다."
-                }
-            ],
-            "answer": 3,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 52,
-            "question": "다음 그림의 httpd 데몬을 모두 강제 종료시킬 때 사용하는 명령으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "killall -KILL httpd"
-                },
-                {
-                    "text": "killall -9 2239,2240,2241"
-                },
-                {
-                    "text": "kill -9 httpd"
-                },
-                {
-                    "text": "kill -KILL 2239,2240,2241"
-                }
-            ],
-            "answer": 1,
-            "isSingleAnswer": true,
-            "description": "<img src='./images/52_image.png'>"
-        },
-        {
-            "id": 53,
-            "question": "다음 중 현재 실행중인 vi 명령의 프로세스를 강제로 종료하 고자 할 때 사용하는 명령으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "kill -HUP 2691"
-                },
-                {
-                    "text": "kill -HUP 2692"
-                },
-                {
-                    "text": "kill -9 2691"
-                },
-                {
-                    "text": "kill -9 2692"
-                }
-            ],
-            "answer": 4,
-            "isSingleAnswer": true,
-            "description": "<img src='./images/53_image.png'>"
-        },
-        {
-            "id": 54,
-            "question": "다음 중 시그널에 부여된 번호값을 확인하는 방법으로 알맞 은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "signal 명령어를 사용해서 확인한다."
-                },
-                {
-                    "text": "kill 명령어를 사용해서 확인한다."
-                },
-                {
-                    "text": "ps 명령어를 사용해서 확인한다."
-                },
-                {
-                    "text": "exec 명령어를 사용해서 확인한다."
-                }
-            ],
-            "answer": 2,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 55,
-            "question": "다음 중 [Ctrl] + [z] 입력 시 전송되는 시그널로 알맞은 것 은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "SIGINT"
-                },
-                {
-                    "text": "SIGQUIT"
-                },
-                {
-                    "text": "SIGSTOP"
-                },
-                {
-                    "text": "SIGTSTP"
-                }
-            ],
-            "answer": 4,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 56,
-            "question": "다음 중 시그널의 관리번호, 읾과 의미를 모두 알맞게 짝 지은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "1, SIGHUP, 프로세스를 재시작할 때 사용된다."
-                },
-                {
-                    "text": "1, SIGINT, 프로세스를 초기화할 때 사용된다."
-                },
-                {
-                    "text": "9, SIGTERM, 프로세스를 강제로 종료할 때 사용된다."
-                },
-                {
-                    "text": "9, SIGKILL, 프로세스를 가능한 정상 종료시킬 때 사용 된다"
-                }
-            ],
-            "answer": 1,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 57,
-            "question": "다음 중 할당된 번호 값이 가장 큰 시그널로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "SIGTSTP"
-                },
-                {
-                    "text": "SIGKILL"
-                },
-                {
-                    "text": "SIGTERM"
-                },
-                {
-                    "text": "SIGQUIT"
-                }
-            ],
-            "answer": 1,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 58,
-            "question": "다음 중 SIGHUP의 시그널 번호로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "1"
-                },
-                {
-                    "text": "2"
-                },
-                {
-                    "text": "9"
-                },
-                {
-                    "text": "15"
-                }
-            ],
-            "answer": 1,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 59,
-            "question": "다음 설명에 해당하는 시그널 번호로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "1"
-                },
-                {
-                    "text": "9"
-                },
-                {
-                    "text": "15"
-                },
-                {
-                    "text": "20"
-                }
-            ],
-            "answer": 2,
-            "isSingleAnswer": true,
-            "description": "강제로 사용자 로그아웃 시키는 작업과 같이 기본종료 시그널로 불가능할 경우에 이용하는 강제 종료 시그널이다."
-        },
-        {
-            "id": 60,
-            "question": "다음 중 kill 명령어를 실행할 때 전달되는 기본 시그널 명칭 과 번호의 조합으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "SIGKILL, 9"
-                },
-                {
-                    "text": "SIGKILL, 15"
-                },
-                {
-                    "text": "SIGTERM, 9"
-                },
-                {
-                    "text": "SIGTERM, 15"
-                }
-            ],
-            "answer": 4,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 61,
-            "question": "다음 보기의 시그널을 번호값이 낮은 순부터 높은 순으로 정렬했을 때 세 번째에 해당하는 시그널 이름으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "SIGTSTP"
-                },
-                {
-                    "text": "SIGKILL"
-                },
-                {
-                    "text": "SIGINT"
-                },
-                {
-                    "text": "SIGTERM"
-                }
-            ],
-            "answer": 4,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 62,
-            "question": "다음 중 시그널 번호 숫자 없이 가장 큰 시그널로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "SIGINT"
-                },
-                {
-                    "text": "SIGKILL"
-                },
-                {
-                    "text": "SIGSTOP "
-                },
-                {
-                    "text": "SIGQUIT"
-                }
-            ],
-            "answer": 3,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 63,
-            "question": "다음 설명에 해당하는 명령으로 으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "renice -10 14164"
-                },
-                {
-                    "text": "renice -10 14164"
-                },
-                {
-                    "text": "nice-10 14164"
-                },
-                {
-                    "text": "nice -10 14164"
-                }
-            ],
-            "answer": 1,
-            "isSingleAnswer": true,
-            "description": "PID 14164인 프로세스의 우선순위값을 -10으로 지정한다."
-        },
-        {
-            "id": 64,
-            "question": "다음 그림에서 PID가 9473인 프로세스의 NI값을 -10으로 변경하기 위한 명령으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "nice -10 9473"
-                },
-                {
-                    "text": "nice --5 bash"
-                },
-                {
-                    "text": "renice -10 9473"
-                },
-                {
-                    "text": "renice -5 bash"
-                }
-            ],
-            "answer": 3,
-            "isSingleAnswer": true,
-            "description": "<img src='./images/64_image.png'>"
-        },
-        {
-            "id": 65,
-            "question": "프로세스 아이디(PID)가 1222인 bash 프로세스의 우선순위 (NI)값이 0이다. 다음 중 이 프로세스의 NI값을 10으로 우선 순위를 변경하는 명령으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "nice 10 1222"
-                },
-                {
-                    "text": "nice -10 1222"
-                },
-                {
-                    "text": "nice 10 bash"
-                },
-                {
-                    "text": "nice -10 bash"
-                }
-            ],
-            "answer": 4,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 66,
-            "question": "다음 중 프로세스 우선순위를 변경할 때 사용하는 NI 값의 범위로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "-20 ~ 20"
-                },
-                {
-                    "text": "-20 ~ 19"
-                },
-                {
-                    "text": "-19 ~ 19"
-                },
-                {
-                    "text": "-19 ~ 20"
-                }
-            ],
-            "answer": 2,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 67,
-            "question": "다음 명령의 결과에 대한 설명으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "bash 프로세스의 우선순위를 높인다."
-                },
-                {
-                    "text": "bash 프로세스의 우선순위를 낮춘다."
-                },
-                {
-                    "text": "bash 프로세스의 PRI 값을 -10으로 변경한다."
-                },
-                {
-                    "text": "사용법 오류로 인해 실행되지 않는다."
-                }
-            ],
-            "answer": 4,
-            "isSingleAnswer": true,
-            "description": "# renice -10 bash"
-        },
-        {
-            "id": 68,
-            "question": "프로세스 아이디(PID)가 513인 bash 프로세스의 우선순위 (NI)값이 0이다. 다음 중 NI 값을 변경하여 우선순위를 낮추 는 명령으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "nice -5 513"
-                },
-                {
-                    "text": "nice -5 bash"
-                },
-                {
-                    "text": "renice -5 513"
-                },
-                {
-                    "text": "renice -5 bash"
-                }
-            ],
-            "answer": 2,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 69,
-            "question": "다음 명령의 결과에 대한 설명으로 가장 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "bash 프로세스의 NI 값을 -10으로 변경한다."
-                },
-                {
-                    "text": "bash 프로세스의 NI 값을 10으로 변경한다."
-                },
-                {
-                    "text": "bash 프로세스의 NI 값을 10만큼 감소시킨다."
-                },
-                {
-                    "text": "bash 프로세스의 NI 값을 10만큼 증가시킨다."
-                }
-            ],
-            "answer": 4,
-            "isSingleAnswer": true,
-            "description": "# nice -10 bash"
-        },
-        {
-            "id": 70,
-            "question": "다음 중 프로세스의 우선순위를 변경할 때 사용하는 명령 으로 틀린 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "top"
-                },
-                {
-                    "text": "jobs"
-                },
-                {
-                    "text": "nice"
-                },
-                {
-                    "text": "renice"
-                }
-            ],
-            "answer": 2,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 71,
-            "question": "다음에 제시된 프로세스의 우선순위를 높이려고 한다. (괄호) 안에 들어갈 내용으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "ㄱ: nice, ㄴ: -10"
-                },
-                {
-                    "text": "ㄱ: nice, ㄴ: --10"
-                },
-                {
-                    "text": "ㄱ: renice, ㄴ: -10"
-                },
-                {
-                    "text": "ㄱ: renice, ㄴ: --10"
-                }
-            ],
-            "answer": 2,
-            "isSingleAnswer": true,
-            "description": "# (ㄱ) (ㄴ) bash"
-        },
-        {
-            "id": 72,
-            "question": "다음 그림에 해당하는 명령어로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "ps"
-                },
-                {
-                    "text": "top"
-                },
-                {
-                    "text": "jobs"
-                },
-                {
-                    "text": "pstree"
-                }
-            ],
-            "answer": 2,
-            "isSingleAnswer": true,
-            "description": "<img src='./images/72_image.png'>"
-        },
-        {
-            "id": 73,
-            "question": "다음 중 top 명령어 실행 상태에서의 명령 설명으로 알맞지 않은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "M: 프로세스의 RSS 값으로 정렬한다."
-                },
-                {
-                    "text": "P: %CPU 값으로 정렬한다."
-                },
-                {
-                    "text": "r: nice 값을 변경한다."
-                },
-                {
-                    "text": "k: 화면 갱신하는 시간을 변경한다."
-                }
-            ],
-            "answer": 4,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 74,
-            "question": "다음 중 root 사용자가 ihd 사용자의 crontab 내용을 작성 하거나 수정하고자 할 때 사용하는 명령으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "crontab -e ihd"
-                },
-                {
-                    "text": "crontab -e-u ihd"
-                },
-                {
-                    "text": "crontab -w ihd"
-                },
-                {
-                    "text": "crontab -w -u ihd"
-                }
-            ],
-            "answer": 2,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 75,
-            "question": "다음 중 root 사용자가 lin 사용자의 예약된 cron 작업을 제거하는 명령으로 가장 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "crontab du lin"
-                },
-                {
-                    "text": "crontab -e-u lin"
-                },
-                {
-                    "text": "crontab -r -u lin"
-                },
-                {
-                    "text": "crontab -x-u lin"
-                }
-            ],
-            "answer": 3,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 76,
-            "question": "다음 중 등록된 cron 관련 파일을 제거하는 명령으로 알맞 은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "crontab -e"
-                },
-                {
-                    "text": "crontab -d"
-                },
-                {
-                    "text": "crontab -1"
-                },
-                {
-                    "text": "crontab -r"
-                }
-            ],
-            "answer": 4,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 77,
-            "question": "프로세스 관련 명령어의 설명으로 틀린 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "fg: 백그라운드 프로세스를 포어그라운드 프로세스로 전환하는 명령이다."
-                },
-                {
-                    "text": "bg: 포어그라운드 프로세스를 백그라운드 프로세스로 전환하는 명령이다."
-                },
-                {
-                    "text": "nice: 프로세스명으로 프로세스의 우선순위를 변경하는 명령이다."
-                },
-                {
-                    "text": "cron: 주로 PID를 사용하여 프로세스의 우선순위를 변 경할 때 사용하는 명령이다."
-                }
-            ],
-            "answer": 4,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 78,
-            "question": "다음 중 특정 명령이나 작업을 예약된 시간에 실행할 때 사용하는 명령어로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "at"
-                },
-                {
-                    "text": "atq"
-                },
-                {
-                    "text": "atrm"
-                },
-                {
-                    "text": "atc"
-                }
-            ],
-            "answer": 1,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 79,
-            "question": "다음 중 스케줄링에 관련된 명령어로 알맞게 짝지은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "jobs, crontab"
-                },
-                {
-                    "text": "jobs, command"
-                },
-                {
-                    "text": "at, crontab"
-                },
-                {
-                    "text": "at, command"
-                }
-            ],
-            "answer": 3,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 80,
-            "question": "다음 조건으로 crontab에 등록할 때 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "3 * 1-5 * * /bin/work.sh"
-                },
-                {
-                    "text": "* 3 ** 1-5 /bin/work.sh"
-                },
-                {
-                    "text": "3 */3 * * 1-5 /bin/work.sh"
-                },
-                {
-                    "text": "*/3 3 1-5 * * /bin/work.sh"
-                }
-            ],
-            "answer": 3,
-            "isSingleAnswer": true,
-            "description": "- 월요일부터 금요일까지 3시간마다 실행되도록 한다.<br>- 실행파일은 /bin/work,sh 이다"
-        },
-        {
-            "id": 81,
-            "question": "다음 중매주 월요일 오전 4시정각에 /etc/check.sh 라는 스크립트를 실행하는 crontab 설정으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "* 1 1 4 0 /etc/check.sh"
-                },
-                {
-                    "text": "0 4 * * 1 /etc/check.sh"
-                },
-                {
-                    "text": "* * 1 0 4./etc/check.sh"
-                },
-                {
-                    "text": "1 * * 40./etc/check.sh"
-                }
-            ],
-            "answer": 2,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 82,
-            "question": "cron을 이용해서 해당 스크립트를 매주 토요일과 일요일 오전 4시 1분에 주기적으로 실행하려고 한다. (괄호) 안에 들어갈 내용으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "1 4 * * 0,6"
-                },
-                {
-                    "text": "1 4 * * 5,6"
-                },
-                {
-                    "text": "4 1 * * 0,6"
-                },
-                {
-                    "text": "4 1 * * 5,6"
-                }
-            ],
-            "answer": 1,
-            "isSingleAnswer": true,
-            "description": "(괄호) /etc/backup.sh"
-        },
-        {
-            "id": 83,
-            "question": "cron을 이용해서 해당 스크립트를 10분 주기로 실행하려고 한다. (괄호) 안에 들어갈 내용으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "0-59/10 * * * *"
-                },
-                {
-                    "text": "* 0-59/10 * * *"
-                },
-                {
-                    "text": "* * */10 * *"
-                },
-                {
-                    "text": "* * * */10 *"
-                }
-            ],
-            "answer": 1,
-            "isSingleAnswer": true,
-            "description": "(괄호) /etc/backup.sh"
-        },
-        {
-            "id": 84,
-            "question": "cron을 이용해서 해당 스크립트를 매월 1일 오전 4시 2분 에 주기적으로 실행하려고 한다. (괄호) 안에 들어갈 내용으 로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "4 2 * * 1"
-                },
-                {
-                    "text": "2 4 * * 1"
-                },
-                {
-                    "text": "4 2 1 * *"
-                },
-                {
-                    "text": "2 4 1 * *"
-                }
-            ],
-            "answer": 4,
-            "isSingleAnswer": true,
-            "description": "(괄호) /etc/backup.sh"
-        },
-        {
-            "id": 85,
-            "question": "cron을 이용해서 해당 스크립트를 매주 1회씩 주기적으로 실행하려고 한다. (괄호) 안에 들어갈 내용으로 알맞은 것 은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "1 1 1 * *"
-                },
-                {
-                    "text": "1 1 * 1 *"
-                },
-                {
-                    "text": "1 1 * * 1"
-                },
-                {
-                    "text": "* 1 1 1 *"
-                }
-            ],
-            "answer": 3,
-            "isSingleAnswer": true,
-            "description": "(괄호) /etc/backup.sh"
-        },
-        {
-            "id": 86,
-            "question": "cron을 이용해서 점검 스트립트를 매주 수요일과 금요일 오전 1시 2분에 주기적으로 실행하려고 한다. 다음 (괄호) 안에 들어갈 내용으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "1 2 * * 3,5"
-                },
-                {
-                    "text": "2 1 * * 3,5"
-                },
-                {
-                    "text": "1 2 * * 3-5"
-                },
-                {
-                    "text": "2 1 * * 3-5"
-                }
-            ],
-            "answer": 2,
-            "isSingleAnswer": true,
-            "description": "(괄호) /etc/check.sh"
-        },
-        {
-            "id": 87,
-            "question": "다음 중 조건에 맞는 crontab 설정으로 올바른 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "0 1 1 3,6,9,12 /root/bin/backup.sh"
-                },
-                {
-                    "text": "3,6,9,12 1 1 0 /root/bin/backup.sh"
-                },
-                {
-                    "text": "3,6,9,12 * 1 1 0 /root/bin/backup.sh"
-                },
-                {
-                    "text": "0 1 3,6,9,12 1 /root/bin/backup.sh"
-                }
-            ],
-            "answer": 1,
-            "isSingleAnswer": true,
-            "description": "- 실행하는 스크립트는 /root/bin/backup.sh 이다.<br>- 분기에 한번씩 crontab 명령어를 이용하여 데이터 전체 백업을 수행한다."
-        },
-        {
-            "id": 88,
-            "question": "월, 수, 금요일 오후 4시 30분에 백업 스크립트가 동작하 도록 cron을 설정하는 과정이다. 다음 (괄호) 안에 들어 갈 내용으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "4 30 * * 1,3,5"
-                },
-                {
-                    "text": "30 4 * * 1,3,5"
-                },
-                {
-                    "text": "16 30 * * 1,3,5"
-                },
-                {
-                    "text": "30 16 * * 1,3,5"
-                }
-            ],
-            "answer": 4,
-            "isSingleAnswer": true,
-            "description": "# vi /etc/crontab<br>(괄호)/etc/backup.sh"
-        },
-        {
-            "id": 89,
-            "question": "다음 중 1주일에 3회 실행되는 crontab 설정으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "1,3,5 0 * * 0 /etc/work.sh"
-                },
-                {
-                    "text": "0 1,3,5 * * 0 /etc/work.sh"
-                },
-                {
-                    "text": "0 * * 1,3,5 0 /etc/work.sh"
-                },
-                {
-                    "text": "0 0 * * 1,3,5 /etc/work.sh"
-                }
-            ],
-            "answer": 4,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 90,
-            "question": "다음 중 월, 수, 금요일 오전 4시 1분에 실행되는 crontab 설정으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "4 1 * * 1,3,5 /etc/lin.sh"
-                },
-                {
-                    "text": "1 4 * * 1,3,5 /etc/lin.sh"
-                },
-                {
-                    "text": "4 1 1,3,5 * * /etc/lin.sh"
-                },
-                {
-                    "text": "1 4 1,3,5 * * /etc/lin.sh"
-                }
-            ],
-            "answer": 2,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 91,
-            "question": "다음 중 10분 주기로 실행되는 crontab 설정으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "*/10 * * * * /etc/lin.sh"
-                },
-                {
-                    "text": "* */10 * * * /etc/lin.sh"
-                },
-                {
-                    "text": "* * */10 * * /etc/lin.sh"
-                },
-                {
-                    "text": "* * * */10 * /etc/lin.sh"
-                }
-            ],
-            "answer": 1,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 92,
-            "question": "다음 중 1시간 주기로 실행되는 crontab 설정으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "1 * * * * /etc/joon.sh"
-                },
-                {
-                    "text": "* 1 * * * /etc/joon.sh"
-                },
-                {
-                    "text": "* * 1 * * /etc/joon.sh"
-                },
-                {
-                    "text": "* * * 1 * /etc/joon.sh"
-                }
-            ],
-            "answer": 1,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 93,
-            "question": "다음 설명으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "shell"
-                },
-                {
-                    "text": "daemon"
-                },
-                {
-                    "text": "inet"
-                },
-                {
-                    "text": "thread"
-                }
-            ],
-            "answer": 2,
-            "isSingleAnswer": true,
-            "description": "주기적이고 지속적인 서비스 요청을 처리하기 위해 백그라운드 상태에서 계속 실행되는 프로세스이다. 보통 서버 역할을 하는 프로그램들이 이에 해당하 고 service 명령어로 실행, 중지, 재시작 등을 할 수 있다."
-        },
-        {
-            "id": 94,
-            "question": "다음 설명에 알맞은 명령어는?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "pstree"
-                },
-                {
-                    "text": "fork"
-                },
-                {
-                    "text": "exec"
-                },
-                {
-                    "text": "ps"
-                }
-            ],
-            "answer": 2,
-            "isSingleAnswer": true,
-            "description": "하나의 프로세스가 다른 프로세스를 실행하기 위한 시스템 호출방법으로, 새로운 프로세스를 위해 메모리를 할당받아 복사본 형태의 프로세 스를 실행한다."
-        },
-        {
-            "id": 95,
-            "question": "다음 설명에 해당하는 명칭으로 가장 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "fork"
-                },
-                {
-                    "text": "exec"
-                },
-                {
-                    "text": "init"
-                },
-                {
-                    "text": "systemd"
-                }
-            ],
-            "answer": 1,
-            "isSingleAnswer": true,
-            "description": "하나의 프로세스가 다른 프로세스를 실행할 때 사 용하는 시스템 호출 방법의 하나로서, 새롭게 생성 된 프로세스는 호출한 프로세스의 자식 프로세스 가 된다."
-        },
-        {
-            "id": 96,
-            "question": "프로세스에 관련된 설명으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "특정한 목적을 위해 실행하여 메모리에 상주하는 프로그 램을 프로세스라고 한다."
-                },
-                {
-                    "text": "같은 목적의 프로세스는 실행 시 동일한번호(Process Identity, PID)를 부여받는다."
-                },
-                {
-                    "text": "사용자 입력에 관계없이 실행되는 포어그라운드 (Foreground) 프로세스가 있다."
-                },
-                {
-                    "text": "명령 입력 후 수행종료까지 기다려야 하는 백그라운드 (Background) 프로세스가 있다."
-                }
-            ],
-            "answer": 1,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 97,
-            "question": "프로세스에 관한 설명으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "포어그라운드 프로세스로 실행하기 위해 실행 명령 뒤에 '&'를 붙인다. "
-                },
-                {
-                    "text": "보통 셸에서 명령을 실행하면 백그라운드 프로세스로 진 행된다."
-                },
-                {
-                    "text": "백그라운드 프로세스로 명령을 실행하면 작업번호와 PID 를 반환한다."
-                },
-                {
-                    "text": "한번 사용자가 실행한 프로세스는 중간에 중지시킬 수 없다."
-                }
-            ],
-            "answer": 3,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 98,
-            "question": "다음 (괄호) 안에 들어갈 내용으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "ㄱ: jobs, ㄴ: fg PID"
-                },
-                {
-                    "text": "ㄱ: ps -l, ㄴ: fg PID"
-                },
-                {
-                    "text": "ㄱ: jobs, ㄴ: fg 작업번호"
-                },
-                {
-                    "text": "ㄱ: ps -l, ㄴ: fg 작업번호"
-                }
-            ],
-            "answer": 3,
-            "isSingleAnswer": true,
-            "description": "다수의 작업이 백그라운드(Background)로 수행 중인 경우 (ㄱ) 명령으로 작업내용을 확인한 후 (ㄴ) 명령으로 포어그라운드(Foreground) 프로세스로 전환시킬 수 있다."
-        },
-        {
-            "id": 99,
-            "question": "다음 중 백그라운드로 수행 중인 프로세스를 확인하는 명령 으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "bg"
-                },
-                {
-                    "text": "fg"
-                },
-                {
-                    "text": "jobs"
-                },
-                {
-                    "text": "nohup"
-                }
-            ],
-            "answer": 3,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 100,
-            "question": "다음 중 사용자가 본인이 실행한 백그라운드 프로세스 목록 을 확인하는 명령어로 가장 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "ps"
-                },
-                {
-                    "text": "bg"
-                },
-                {
-                    "text": "jobs"
-                },
-                {
-                    "text": "exec"
-                }
-            ],
-            "answer": 3,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 101,
-            "question": "다음 중 백그라운드로 실행중인 프로세스나 현재 중지된 프로세스의 목록을 확인할 때 사용하는 명령으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "bg"
-                },
-                {
-                    "text": "fg"
-                },
-                {
-                    "text": "jobs"
-                },
-                {
-                    "text": "pgrep"
-                }
-            ],
-            "answer": 3,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 102,
-            "question": "다음 중 명령어를 백그라운드 프로세스로 실행하기 위한 방 법으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "실행 명령어 앞부분에 bg를 덧붙여서 실행한다."
-                },
-                {
-                    "text": "실행 명령어 앞부분에 jobs를 덧붙여서 실행한다."
-                },
-                {
-                    "text": "실행 명령어 뒷부분에 &기호를 덧붙여서 실행한다."
-                },
-                {
-                    "text": "실행 명령어 뒷부분에 bg를 덧붙여서 실행한다."
-                }
-            ],
-            "answer": 3,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 103,
-            "question": "다음 중 포어그라운드 프로세스를 종료하기 위해 사용하는 키 조합으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "[Ctrl] + [c]"
-                },
-                {
-                    "text": "[Ctrl] + [a]"
-                },
-                {
-                    "text": "[Ctrl] + [z]"
-                },
-                {
-                    "text": "[Ctrl] + [d]"
-                }
-            ],
-            "answer": 1,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 104,
-            "question": "다음 중 포어그라운드(foreground) 프로세스를 백그라운드 (background) 프로세스로 전환하기 위해 작업중인 프로세스 를 대기(suspend) 상태로 전환하는 키 조합으로 알맞은 것 은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "[Ctrl] + [z]"
-                },
-                {
-                    "text": "[Ctrl] + [x]"
-                },
-                {
-                    "text": "[Ctrl] + [c]"
-                },
-                {
-                    "text": "[Ctrl] + [b]"
-                }
-            ],
-            "answer": 1,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 105,
-            "question": "find 명령이 실행 중인 상태이다. 다음 중 이 명령을 계속 실행하면서 다른 작업을 수행하기 위한 과정으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "[ctrl] + [d]를 누른 후에 bg 명령을 실행한다."
-                },
-                {
-                    "text": "[ctrl] + [d]를 누른 후에 fg 명령을 실행한다."
-                },
-                {
-                    "text": "[ctrl] + [z]를 누른 후에 bg 명령을 실행한다."
-                },
-                {
-                    "text": "[ctrl] + [z]를 누른 후에 fg 명령을 실행한다."
-                }
-            ],
-            "answer": 3,
-            "isSingleAnswer": true,
-            "description": "# find / -name '*.txt' 2>/dev/null > text, list"
-        },
-        {
-            "id": 106,
-            "question": "다음 중 Set-UID에 대한 설정하는 방법으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "chmod s+u a.out"
-                },
-                {
-                    "text": "chmod s+g a.out"
-                },
-                {
-                    "text": "chmod uts a.out"
-                },
-                {
-                    "text": "chmod u+g a.out"
-                }
-            ],
-            "answer": 3,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 107,
-            "question": "다음 중 그룹 공유 디렉터리인 data에 Set-GID 및 스티키 비트(Sticky Bit)를 설정하는 방법으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "chmod go+s data"
-                },
-                {
-                    "text": "chmod go+t data"
-                },
-                {
-                    "text": "chmod g+t,o+s data"
-                },
-                {
-                    "text": "chmod g+s,o+t data"
-                }
-            ],
-            "answer": 4,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 108,
-            "question": "다음 특수권한 설정에 대한 설명으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "chmod g+s, o+t /project"
-                },
-                {
-                    "text": "chmod g+to+t /project"
-                },
-                {
-                    "text": "chmod go+s /project"
-                },
-                {
-                    "text": "chmod go+t/project"
-                }
-            ],
-            "answer": 1,
-            "isSingleAnswer": true,
-            "description": "/project 디렉터리에 Set-GID를 부여하여 파일 생성시 자동으로 그룹소유권을 지정하고, Sticky-Bit권한을 설정한다."
-        },
-        {
-            "id": 109,
-            "question": "다음 중 스티키 비트(Sticky Bit)에 대한 설정하는 방법으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "chmod o+s data/"
-                },
-                {
-                    "text": "chmod o+t data/"
-                },
-                {
-                    "text": "chmod u+s data/"
-                },
-                {
-                    "text": "chmod u+t data/"
-                }
-            ],
-            "answer": 2,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 110,
-            "question": "다음 설명에 해당하는 명령으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "chmod u+s /data"
-                },
-                {
-                    "text": "chmod g+s /data"
-                },
-                {
-                    "text": "③chmod o+s/data"
-                },
-                {
-                    "text": "chmod o+t /data"
-                }
-            ],
-            "answer": 4,
-            "isSingleAnswer": true,
-            "description": "/data 디렉터리를 여러 사용자가 자유롭게 파일 생성이 가능하나 삭제는 본인 소유의 파일만 가능 한 공유디렉터리로 만들려고 한다."
-        },
-        {
-            "id": 111,
-            "question": "다음 설명의 상황에 설정해야 하는 작업으로 가장 알맞은 것 은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "project 디렉터리에 부여된 w 권한을 제거한다."
-                },
-                {
-                    "text": "project 디렉터리에 Set-UID를 부여한다."
-                },
-                {
-                    "text": "project 디렉터리에 Set-GID를 부여한다."
-                },
-                {
-                    "text": "project 디렉터리에 Sticky-Bit를 부여한다."
-                }
-            ],
-            "answer": 4,
-            "isSingleAnswer": true,
-            "description": "회사의 공유 디렉터리로 이용 중인 project에서 누구나 생성은 가능하나 삭제할 때는 본인 소유 의 파일만 가능하도록 설정하려고 한다."
-        },
-        {
-            "id": 112,
-            "question": "다음 중 공유 디렉터리(world-writable directory) 설정이라고 부르는 스티키 비트(Sticky Bit)가 부여된 디렉터리로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "/bin"
-                },
-                {
-                    "text": "/usr"
-                },
-                {
-                    "text": "/etc"
-                },
-                {
-                    "text": "/tmp"
-                }
-            ],
-            "answer": 4,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 113,
-            "question": "다음 중 특수 권한인 Set-UID, Set-GID, Sticky Bit가 부여된 파일이나 디렉터리로 틀린 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "/tmp"
-                },
-                {
-                    "text": "/bin/su"
-                },
-                {
-                    "text": "/etc/shadow"
-                },
-                {
-                    "text": "/usr/bin/passwd"
-                }
-            ],
-            "answer": 3,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 114,
-            "question": "다음 중 vi 편집기를 사용해 ihd.html 파일의 행 번호를 표시하는 방법으로 틀린 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "vi + ihd.html"
-                },
-                {
-                    "text": "vi -c 'set nu' ihd.html"
-                },
-                {
-                    "text": "vi ihd.html 명령 수행 후, vi ex 명령모드에서 ':set nu' 입력"
-                },
-                {
-                    "text": "vi ihd.html 명령 수행 후, vi ex 명령모드에서 ':set number'"
-                }
-            ],
-            "answer": 1,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 115,
-            "question": "다음 중 vi편집기를 처음 실행시 가장 먼저 접하는 모드로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "명령모드"
-                },
-                {
-                    "text": "편집모드"
-                },
-                {
-                    "text": "ex명령모드"
-                },
-                {
-                    "text": "입력모드"
-                }
-            ],
-            "answer": 1,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 116,
-            "question": "다음에서 설명하는 에디터의 종류로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "vi"
-                },
-                {
-                    "text": "vim"
-                },
-                {
-                    "text": "pico"
-                },
-                {
-                    "text": "emacs"
-                }
-            ],
-            "answer": 2,
-            "isSingleAnswer": true,
-            "description": "- 브람 무레나르가 독자적으로 다양한 기능을 추가하여 만든 편집기이다.<br>- 패턴 검색 시에 하이라이트 기능을 제공하여 빠른 검색이 가능하다.<br>- 모드형 편집기로 히스토리기능 제공, 확장된 정규 표현식 문법 등 여러 가지 기능을 지원 한다"
-        },
-        {
-            "id": 117,
-            "question": "vi 편집기로 다음과 같은 작업을 수행하려고 한다. vi 편집기에서 사용될 수 있는 단축키 조합으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "yy, p"
-                },
-                {
-                    "text": "dd, p"
-                },
-                {
-                    "text": "db, o"
-                },
-                {
-                    "text": "dl, o"
-                }
-            ],
-            "answer": 2,
-            "isSingleAnswer": true,
-            "description": "- 현재 커서가 위치한 한 줄을 삭제<br>- 현재 커서가 위치한 줄 아래에 붙여넣기"
-        },
-        {
-            "id": 118,
-            "question": "다음 중 리눅스에서 사용하는 에디터로 틀린 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "notepad"
-                },
-                {
-                    "text": "vim"
-                },
-                {
-                    "text": "emacs"
-                },
-                {
-                    "text": "pico"
-                }
-            ],
-            "answer": 1,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 119,
-            "question": "다음 중 리눅스에서 사용되는 GUI기반의 에디터로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "gVim"
-                },
-                {
-                    "text": "PICO"
-                },
-                {
-                    "text": "emacs"
-                },
-                {
-                    "text": "vim"
-                }
-            ],
-            "answer": 1,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 120,
-            "question": "다음 중 vi 편집기에서 커서를 왼쪽으로 이동하는 명령키로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "h"
-                },
-                {
-                    "text": "j"
-                },
-                {
-                    "text": "k"
-                },
-                {
-                    "text": "l"
-                }
-            ],
-            "answer": 1,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 121,
-            "question": "vi 편집기에서 바로 직전에 실행한 줄 삭제 명령을 취소하여 복원하려고 할 때 사용하는 명령으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "u"
-                },
-                {
-                    "text": "x"
-                },
-                {
-                    "text": "y"
-                },
-                {
-                    "text": "z"
-                }
-            ],
-            "answer": 1,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 122,
-            "question": "vi 편집기를 사용하여 /etc/passwd 파일을 열었다. 다음과 같이 설정하기 위한 환경변수 명령으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": ":set ai"
-                },
-                {
-                    "text": ":set all"
-                },
-                {
-                    "text": ":set nu"
-                },
-                {
-                    "text": ":set list"
-                }
-            ],
-            "answer": 3,
-            "isSingleAnswer": true,
-            "description": "<img src='./images/122_image.png'>"
-        },
-        {
-            "id": 123,
-            "question": "다음 중 (괄호) 안에 들어갈 내용으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "ㄱ: vi, ㄴ: vim, ㄷ: gVim"
-                },
-                {
-                    "text": "ㄱ: emacs, ㄴ: GNU emacs, ㄷ: Xemacs"
-                },
-                {
-                    "text": "ㄱ: pico, ㄴ: nano, ㄷ: emacs"
-                },
-                {
-                    "text": "ㄱ: vi, ㄴ: emacs, ㄷ: pico"
-                }
-            ],
-            "answer": 1,
-            "isSingleAnswer": true,
-            "description": "유닉스 계열 시스템의 대표적인 편집기는 (ㄱ) 미다. (ㄱ)에 추가 기능을 대폭 강화하여 만든 편집기는 (ㄴ) 이다. 이를 GUI 기반으로 개발한 편집기는 (ㄷ) 이다."
-        },
-        {
-            "id": 124,
-            "question": "다음 중 (괄호) 안에 들어갈 내용으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": ":"
-                },
-                {
-                    "text": ";"
-                },
-                {
-                    "text": "!"
-                },
-                {
-                    "text": "/"
-                }
-            ],
-            "answer": 1,
-            "isSingleAnswer": true,
-            "description": "vi 편집기에서 ex 명령 모드로 진입하기 위해 서는 명령 모드에서 (&nbsp;&nbsp;&nbsp;&nbsp;) 를 입력하면 화면 아래쪽에 (&nbsp;&nbsp;&nbsp;&nbsp;) 라는 프롬프트가 나타나고 미 를 ex 명령 모드라고 한다."
-        },
-        {
-            "id": 125,
-            "question": "다음 중 vi 편집기로 문자열을 치환할 때 사용하는 정규 표현식 종류와 설명으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "$: 줄의 끝을 의미"
-                },
-                {
-                    "text": "?: 줄의 시작을 의미"
-                },
-                {
-                    "text": "<: 단어의 끝을 의미"
-                },
-                {
-                    "text": "^: 단어의 시작을 의미"
-                }
-            ],
-            "answer": 1,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 126,
-            "question": "다음 중 vi 편집기로 문서를 편집한 후 저장하고 종료하는 명령으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": ":w"
-                },
-                {
-                    "text": ":w!"
-                },
-                {
-                    "text": ":q!"
-                },
-                {
-                    "text": ":wq"
-                }
-            ],
-            "answer": 4,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 127,
-            "question": "다음 중 vi 편집기에서 변경된 내용을 저장하지 않고 강제로 종료할 때 사용하는 명령으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": ":w!"
-                },
-                {
-                    "text": ":e!"
-                },
-                {
-                    "text": ":q!"
-                },
-                {
-                    "text": ":x!"
-                }
-            ],
-            "answer": 3,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 128,
-            "question": "다음 중 vi 편집기의 명령모드에서 현재 커서가 위치한 곳의 문자를 삭제하는 입력 키로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "e"
-                },
-                {
-                    "text": "d"
-                },
-                {
-                    "text": "x"
-                },
-                {
-                    "text": "dd"
-                }
-            ],
-            "answer": 3,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 129,
-            "question": "다음 중 vi 편집기의 명령 모드에서 편집모드로 전환하는 키로 틀린 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "a"
-                },
-                {
-                    "text": "e"
-                },
-                {
-                    "text": "i"
-                },
-                {
-                    "text": "o"
-                }
-            ],
-            "answer": 2,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 130,
-            "question": "vi 편집기에서 표시되고 있는 행번호를 제거할 때 사용하는 환경 설정값으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "set uno"
-                },
-                {
-                    "text": "set unnu"
-                },
-                {
-                    "text": "set unno"
-                },
-                {
-                    "text": "set nonu"
-                }
-            ],
-            "answer": 4,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 131,
-            "question": "다음 중 vi 편집기에서 현재 커서가 위치한 줄부터 아래 방향으로 3줄 복사하는 명령으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "3j"
-                },
-                {
-                    "text": "3p"
-                },
-                {
-                    "text": "3dd"
-                },
-                {
-                    "text": "3yy"
-                }
-            ],
-            "answer": 4,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 132,
-            "question": "다음 (괄호) 안에 들어갈 내용으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "ㄱ: /, ㄴ: n"
-                },
-                {
-                    "text": "ㄱ: ?, ㄴ: n"
-                },
-                {
-                    "text": "ㄱ: /, ㄴ: N"
-                },
-                {
-                    "text": "ㄱ: ?, ㄴ: N"
-                }
-            ],
-            "answer": 1,
-            "isSingleAnswer": true,
-            "description": "vi 편집기의 명령 모드 상태에서 특정 문자열을 마 래 방향으로 검색하기 위해서는 (ㄱ) 기호를 선 언한 뒤에 찾으려는 문자열 패턴을 덧붙여서 기재 한다. 만약 다음 문자열을 찾으려면 (ㄴ) 키를 누르면 이동된다."
-        },
-        {
-            "id": 133,
-            "question": "다음 중 lin.txt 파일에서 a로 시작되는 줄만 검색하려고 할 때의 명령으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "grep a lin.txt"
-                },
-                {
-                    "text": "grep ^a lin.txt"
-                },
-                {
-                    "text": "grep [a] lin.txt"
-                },
-                {
-                    "text": "grep [^a] lin.txt"
-                }
-            ],
-            "answer": 2,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 134,
-            "question": "다음 중 locate 명령어에 대한 설명으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "텍스트 파일에서 특정 패턴과 일치하는 줄을 출력해준 다"
-                },
-                {
-                    "text": "정보를 데이터베이스화하여 find 명령어보다 검색 속도 가 빠르다."
-                },
-                {
-                    "text": "새롭게 추가된 파일도 별다른 조치 없이 검색할 수 있 다"
-                },
-                {
-                    "text": "사용자, 허가권 등 다양한 조건을 이용해서 검색할 수 있다"
-                }
-            ],
-            "answer": 1,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-
-        {
-            "id": 135,
-            "question": "다음 명령의 결과로 설정되는 lin.txt 파일의 허가권으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "-rw-rw-rw-"
-                },
-                {
-                    "text": "-rw-rw-r--"
-                },
-                {
-                    "text": "-r--r--r--"
-                },
-                {
-                    "text": "--------r--"
-                }
-            ],
-            "answer": 2,
-            "isSingleAnswer": true,
-            "description": "# Is -1 lin.txt<br>-rw-rw-rw-. ihduser admin 513 Dec 22 21:05 lin.txt<br><br># chmod or lin.txt"
-        },
-        {
-            "id": 136,
-            "question": "다음 명령의 결과로 생성되는 lin 디렉터리의 허가권으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "drwxrwxrwx"
-                },
-                {
-                    "text": "drwxrwxr-x"
-                },
-                {
-                    "text": "drw-rw-r--"
-                },
-                {
-                    "text": "d-------w-"
-                }
-            ],
-            "answer": 2,
-            "isSingleAnswer": true,
-            "description": "$ umask<br>0002<br>$ mkdir lin"
-        },
-        {
-            "id": 137,
-            "question": "다음(괄호) 안에 들어갈 허가권 값으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "-r--------."
-                },
-                {
-                    "text": "-rwx------."
-                },
-                {
-                    "text": "-------rwx."
-                },
-                {
-                    "text": "-rwxrwxrwx."
-                }
-            ],
-            "answer": 3,
-            "isSingleAnswer": true,
-            "description": "# chmod 7 lin.txt<br><br># ls -l lin.txt<br>(괄호) joon ihd 513 Dec 22 21:05 lin.txt"
-        },
-        {
-            "id": 138,
-            "question": "다음 중 디렉터리에 부여되는 허가권인 에 대한 설명으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "디렉터리 내부의 내용을 볼 수 있는 권한"
-                },
-                {
-                    "text": "디렉터리 내부에 파일을 생성할 수 있는 권한"
-                },
-                {
-                    "text": "디렉터리 내부에 파일을 삭제할 수 있는 권한"
-                },
-                {
-                    "text": "디렉터리 내부로 접근할 수 있는 권한"
-                }
-            ],
-            "answer": 4,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 139,
-            "question": "다음 명령의 결과로 설정되는 lin.txt 파일의 허가권으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "--wx-wx-wx"
-                },
-                {
-                    "text": "-r--------"
-                },
-                {
-                    "text": "-r--r--r--"
-                },
-                {
-                    "text": "------r--"
-                }
-            ],
-            "answer": 3,
-            "isSingleAnswer": true,
-            "description": "# Is -1 lin.txt<br>-rwxrwxrwx, ihdman ihd 513 Dec 22 21:05 lin.txt<br># chmod a=r lin,txt"
-        },
-        {
-            "id": 140,
-            "question": "",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "u, g, o=W"
-                },
-                {
-                    "text": "u=rx, g=rx, o=r"
-                },
-                {
-                    "text": "u=rw, g=rw, or"
-                },
-                {
-                    "text": "u=rwx, g=rwx, o=rx"
-                }
-            ],
-            "answer": 4,
-            "isSingleAnswer": true,
-            "description": "$ umask<br>0002<br>$ umask -S<br>(괄호)"
-        },
-        {
-            "id": 141,
-            "question": "다음 명령과 같이 umask 값을 지정했을 경우에 파일 생성 시 부여되는 허가권 값으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "--------w-"
-                },
-                {
-                    "text": "--------wx"
-                },
-                {
-                    "text": "-rw-rw-r---"
-                },
-                {
-                    "text": "-rwxrwxr-x"
-                }
-            ],
-            "answer": 1,
-            "isSingleAnswer": true,
-            "description": "$ umask 775"
-        },
-        {
-            "id": 142,
-            "question": "다음(괄호) 안에 들어갈 명령으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "chown :ihd lin.txt"
-                },
-                {
-                    "text": "chown :kait lin.txt"
-                },
-                {
-                    "text": "chgrp ihd lin.txt"
-                },
-                {
-                    "text": "chgrp :kait lin.txt"
-                }
-            ],
-            "answer": 2,
-            "isSingleAnswer": true,
-            "description": "# Is -I lin.txt<br>-rwxrwxrwx, joon ihd 513 Dec 22 21:05 lin.txt<br>#(괄호)<br># Is -I lin.txt<br>-rwxrwxrwx, joon kait 513 Dec 22 21:05 lin.txt"
-        },
-        {
-            "id": 143,
-            "question": "다음 (괄호) 안에 들어갈 허가권 값으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "-rwxrwxrwx."
-                },
-                {
-                    "text": "-r-xrwxrwx."
-                },
-                {
-                    "text": "-rwxrwxr-x."
-                },
-                {
-                    "text": "-rwxrwxrw-."
-                }
-            ],
-            "answer": 2,
-            "isSingleAnswer": true,
-            "description": "# Is -1 lin.txt<br>--w-------, joon ihd 513 Dec 22 21:05 lin.txt<br># chmod 577 lin.txt<br># Is-1 lin.txt<br>(괄호) joon ihd 513 Dec 22 21:05 lin.txt"
-        },
-        {
-            "id": 144,
-            "question": "",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "정답 없음"
-                },
-                {
-                    "text": "파일의 내용을 수정할 수 있다."
-                },
-                {
-                    "text": "파일의 내용을 전부 지워서 빈 파일을 만들 수 있다."
-                },
-                {
-                    "text": "파일을 삭제할 수 있다."
-                },
-                {
-                    "text": "cat 명령과 >>를 이용해서 파일의 내용을 추가할 수 있다."
-                }
-            ],
-            "answer": 1,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 145,
-            "question": "다음 설명에 해당하는 허가권을 설정하는 명령으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "chmod 707 list.txt"
-                },
-                {
-                    "text": "chmod a=777 list.txt"
-                },
-                {
-                    "text": "chmod a=rwx list.txt"
-                },
-                {
-                    "text": "chmod u=rwx list.txt"
-                }
-            ],
-            "answer": 3,
-            "isSingleAnswer": true,
-            "description": "list.txt 파일에 대하여 모든 사용자 및 그룹에게 모든 권한을 준다."
-        },
-        {
-            "id": 146,
-            "question": "다음 중 파일이나 디렉터리의 소유권 및 그룹 소유권을 변경 하는 명령으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "chmod"
-                },
-                {
-                    "text": "chown"
-                },
-                {
-                    "text": "chgrp"
-                },
-                {
-                    "text": "umask"
-                }
-            ],
-            "answer": 2,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 147,
-            "question": "다음 (ㄱ) 및 (ㄴ) 에 들어갈 내용으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "ㄱ: chmod, ㄴ: u+w"
-                },
-                {
-                    "text": "ㄱ: chown, ㄴ: u+w"
-                },
-                {
-                    "text": "ㄱ: chmod, ㄴ: u=w"
-                },
-                {
-                    "text": "ㄱ: chown, ㄴ: u-r"
-                }
-            ],
-            "answer": 3,
-            "isSingleAnswer": true,
-            "description": "[ihd@www~]$ ls -l lin.txt<br>-rw-rw-r--. 1 ihd kait 80 May 13 21:05 lin.txt<br>[ihd@www~]$ (ㄱ) (ㄴ) lin.txt<br>[ihd@www~]$ ls -l lin.txt<br>--w-rw-r--. 1 ihd kait 80 May 13 21:06 lin.txt"
-        },
-        {
-            "id": 148,
-            "question": "다음 중 설정된 umask의 값이 0022일 때 생성되는 파일의 허가권 값으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "-rw-r--r--"
-                },
-                {
-                    "text": "-rw-rw-r--"
-                },
-                {
-                    "text": "-rwxr-xr-x"
-                },
-                {
-                    "text": "-rwxrwxr-x"
-                }
-            ],
-            "answer": 1,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 149,
-            "question": "다음 중 lin.txt 파일의 허가권 값을 알지 못하는 상태에서 'chmod 755 lin.txt' 명령과 동일한 명령으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "chmod u+rwx.go+rx lin.txt"
-                },
-                {
-                    "text": "chmod u=rwx,go+rx lin.txt"
-                },
-                {
-                    "text": "chmod u=rwx,a=rx lin.txt"
-                },
-                {
-                    "text": "chmod u=rwx,go=rx lin.txt"
-                }
-            ],
-            "answer": 4,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 150,
-            "question": "다음 중 설정된 umask의 값을 확인할 때 사용하는 명령으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "umask -l"
-                },
-                {
-                    "text": "umask -V"
-                },
-                {
-                    "text": "umask -s"
-                },
-                {
-                    "text": "umask -S"
-                }
-            ],
-            "answer": 4,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 151,
-            "question": "",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "chown -r ihduser /data"
-                },
-                {
-                    "text": "chown -R ihduser /data"
-                },
-                {
-                    "text": "chown -d ihduser /data"
-                },
-                {
-                    "text": "chown -D ihduser /data"
-                }
-            ],
-            "answer": 2,
-            "isSingleAnswer": true,
-            "description": "/data 디렉터리를 포함하여 하위 디렉터리 및파 일의 소유권을 ihduser로 변경한다."
-        },
-        {
-            "id": 152,
-            "question": "다음 조건에 해당하는 명령으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "chown admin.ihduser lin.txt"
-                },
-                {
-                    "text": "chown ihduser.admin lin.txt"
-                },
-                {
-                    "text": "chgrp admin.ihduser lin.txt"
-                },
-                {
-                    "text": "chgrp ihduser.admin lin.txt"
-                }
-            ],
-            "answer": 2,
-            "isSingleAnswer": true,
-            "description": "lin.txt 파일의 소유권은 ihduser, 그룹 소유권을 admin으로 변경한다."
-        },
-        {
-            "id": 153,
-            "question": "다음 중 (괄호) 안에 들어갈 내용으로 틀린 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "ㄱ: 0022"
-                },
-                {
-                    "text": "ㄴ: -rwxr-xr-x"
-                },
-                {
-                    "text": "ㄷ: S"
-                },
-                {
-                    "text": "ㄹ: o=rx"
-                }
-            ],
-            "answer": 2,
-            "isSingleAnswer": true,
-            "description": "[root@www~]$ umask<br>(ㄱ) 022<br>[root@www~]$ touch ihd.txt<br>[root@www~]$ mkdir abc<br>[root@www~]$ ls -l<br>total 2<br>(ㄴ). 1 root root 0 Jan 30 15:43 ihd.txt<br>drwxr-xr-x. 2 root root 19 Jan 30 15:43 abc<br>[root@www~]$ umask (©)S<br>u=rwx.g=rx,(@) o=rx"
-        },
-        {
-            "id": 154,
-            "question": "다음과 같이 허가권을 설정하기 위한 명령으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "chmod 664 ihd.txt"
-                },
-                {
-                    "text": "chmod o-wx ihd.txt"
-                },
-                {
-                    "text": "chmod ugo+rw ihd.txt"
-                },
-                {
-                    "text": "chmod o-r,o-rw ihd.txt"
-                }
-            ],
-            "answer": 1,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 155,
-            "question": "파일의 허가권이 다음과 같다. 사용자는 읽기, 쓰기, 실행 권 한을 부여하고, 그룹과 다른 사용자는 읽기 및 실행 권한만 설정하려고 할 때 명령으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "chmod 664 lin.sh"
-                },
-                {
-                    "text": "chmod 644 lin.sh"
-                },
-                {
-                    "text": "chmod a+x,g-w lin.sh"
-                },
-                {
-                    "text": "chmod u+rwx,go+rx lin.sh"
-                }
-            ],
-            "answer": 3,
-            "isSingleAnswer": true,
-            "description": "$ Is -I lin,sh<br>-rw-rw-r-- 1 ihd ihd 1079 Jan 27 16:29 lin,sh"
-        },
-        {
-            "id": 156,
-            "question": "다음 중 lin.txt 파일의 그룹 소유권을 kait, 소유자는 ihduser 로 설정하는 명령으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "chown kait:ihduser lin.txt"
-                },
-                {
-                    "text": "chown ihduser:kait lin.txt"
-                },
-                {
-                    "text": "charp kait:ihduser lin.txt"
-                },
-                {
-                    "text": "charp ihduser:kait lin.txt"
-                }
-            ],
-            "answer": 2,
-            "isSingleAnswer": true,
-            "description": ""
-        },
-        {
-            "id": 157,
-            "question": "다음(괄호) 안에 들어갈 내용으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "0002"
-                },
-                {
-                    "text": "0022"
-                },
-                {
-                    "text": "0222"
-                },
-                {
-                    "text": "0664"
-                }
-            ],
-            "answer": 1,
-            "isSingleAnswer": true,
-            "description": "[ihd@www~]$ Is<br>[ihd@www~]$ Is touch lin, txt<br>[ihd@www~]$ ls -l lin. txt<br>-rw-rw-r--. 1 ind ihd 0 Jan 18 9:42 lin.txt<br>[ihd@www~]$ umask<br>(괄호)"
-        },
-        {
-            "id": 158,
-            "question": "다음 중 생성된 a.txt의 허가권 값으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "-rw-rw-r--"
-                },
-                {
-                    "text": "-rwxrwxr-x"
-                },
-                {
-                    "text": "drw-rw-r--"
-                },
-                {
-                    "text": "drwxrwxr-x"
-                }
-            ],
-            "answer": 1,
-            "isSingleAnswer": true,
-            "description": "$ umask<br>0002<br>$ touch a.txt"
-        },
-        {
-            "id": 159,
-            "question": "다음 중 조건 설명에 맞는 파일과 디렉터리 퍼미션으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "파일: rwxrwx---, 디렉터리: rw-rw----"
-                },
-                {
-                    "text": "파일: rw-rw---, 디렉터리: rwxrwx---"
-                },
-                {
-                    "text": "파일: rwxrwx---, 디렉터리: rwxrwx---"
-                },
-                {
-                    "text": "파일: rw-rw----, 디렉터리: rw-rw----"
-                }
-            ],
-            "answer": 2,
-            "isSingleAnswer": true,
-            "description": "- umask 값은 0007 이다.<br>- 파일과 디렉터리가 새로 생성될 때의 퍼미션이다."
-        },
-        {
-            "id": 160,
-            "question": "다음(괄호) 안에 들어갈 내용으로 알맞은 것은?",
-            "type": "multipleChoice",
-            "options": [
-                {
-                    "text": "011"
-                },
-                {
-                    "text": "022"
-                },
-                {
-                    "text": "644"
-                },
-                {
-                    "text": "755"
-                }
-            ],
-            "answer": 4,
-            "isSingleAnswer": true,
-            "description": "[ihduser@www~]$ umask (괄호)<br>[ihduser@www~]$ touch a.txt)<br>[ihduser@www~]$ mkdir aaa)<br>[ihduser@www~]$ ls -l)<br>-----w-w-, 1 ihduser ihduser 0 09:11 a.txt)<br>d----w-w-, 2 ihduser ihduser 4096 09:22 aaa)"
+            "description": "<img src='./images/45.png'>"
         }
     ]
 }
