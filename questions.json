@@ -590,7 +590,7 @@
                     "text": "작업중인 디렉터리의 경로를 알기 위한 명령이다."
                 }
             ],
-            "answer": 3,
+            "answer": 4,
             "isSingleAnswer": true,
             "description": ""
         },
@@ -920,7 +920,7 @@
                     "text": "mke2fs -j -b 4096 –R stripe=64 /dev/md0"
                 }
             ],
-            "answer": 3,
+            "answer": 1,
             "isSingleAnswer": true,
             "description": "가. RAID 장치인 /dev/md0를 ext3 파일 시스템으로 생성하고 블록 사이즈를 8192바이트로 한다. <br>나. stripe당 블록 사이즈를 32바이트로 설정한다."
         },
@@ -986,7 +986,7 @@
                     "text": "D"
                 }
             ],
-            "answer": 3,
+            "answer": 4,
             "isSingleAnswer": true,
             "description": "<img src='./images/45.png'>"
         }
